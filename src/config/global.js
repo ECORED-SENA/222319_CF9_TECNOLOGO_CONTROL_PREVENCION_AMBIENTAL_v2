@@ -28,74 +28,63 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+
         numero: '1',
         titulo: 'Bases conceptuales cálculo valores de emisión ',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Unidades de medida de la contaminación atmosférica',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Sistema de unidades',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Unidades de medición',
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
             titulo:
               'El sistema internacional de unidades y notación científica',
             hash: 't_1_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Conversión de unidades',
             hash: 't_1_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.6',
             titulo: 'Factor de conversión',
             hash: 't_1_6',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.7',
             titulo: 'Cifras significativas',
             hash: 't_1_7',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.8',
             titulo: 'Notación científica',
             hash: 't_1_8',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.9',
             titulo: 'Conversión de unidades',
             hash: 't_1_9',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.10',
             titulo: 'Ley de gases ideales',
             hash: 't_1_10',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.11',
             titulo:
               'Diagramas de entrada y salida de la contaminación atmosférica',
@@ -105,49 +94,42 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
+
         numero: '2',
         titulo: 'Cálculo de emisiones',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Medición directa',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Puertos de muestreo',
             hash: 't_2_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.3',
             titulo: 'Plataformas de muestreo',
             hash: 't_2_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.4',
             titulo: 'Acceso al sitio de muestreo',
             hash: 't_2_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.5',
             titulo: 'Instalaciones para equipos de toma de muestra y análisis',
             hash: 't_2_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.6',
             titulo: 'Medición indirecta',
             hash: 't_2_6',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.7',
             titulo: 'Factores de emisión',
             hash: 't_2_7',
@@ -156,44 +138,38 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
+
         numero: '3',
         titulo: 'Fundamentación Textil',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo:
               'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Identificación fibras por combustión',
             hash: 't_3_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.3',
             titulo: 'Clasificación de los hilos',
             hash: 't_3_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.4',
             titulo: 'Clasificación de tejidos',
             hash: 't_3_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.5',
             titulo: 'Caracterización de los tejidos',
             hash: 't_3_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.6',
             titulo: 'Procesos textiles',
             hash: 't_3_6',
@@ -202,19 +178,17 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
+
         numero: '4',
         titulo: 'Normativa de emisiones ',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Calidad del aire',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: 'Fuentes fijas',
             hash: 't_4_2',
@@ -223,20 +197,18 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
+
         numero: '5',
         titulo: 'Interpretación de resultados de las mediciones',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '5.1',
             titulo:
               'Correcciones de resultados en inmisión o calidad del aire.',
             hash: 't_5_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '5.2',
             titulo: 'Correcciones de resultados de emisión en fuentes fijas.',
             hash: 't_5_2',
