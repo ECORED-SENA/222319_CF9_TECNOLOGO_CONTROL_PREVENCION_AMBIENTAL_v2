@@ -8,7 +8,6 @@
         span 2
       h1 Cálculo de emisiones
       
-    p(data-aos="fade-down").mb-5 Como ha venido estudiando en el tema, el medio ambiente y, por ende, las condiciones de calidad del aire están siendo enrarecidas por una serie de partículas diminutas que son producidas por las actividades productivas que realiza el ser humano. Por lo anterior, se hace necesario revisar el siguiente tema: "#[b Cálculo de emisiones]" 
     img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/73.png')
 
     .row.justify-content-center.align-items-center.mb-5           
@@ -19,7 +18,7 @@
           .col-auto 
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/74.png') 
           .col
-            ul.lista-ul.mb-0(data-aos="fade-down")
+            ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
               li 
                 i.fas.fa-check.c1
                 | Infraestructura de las instalaciones (fuente de emisión o chimenea).
@@ -34,40 +33,23 @@
 
     p(data-aos="fade-down").mb-5 El Protocolo para el Control y Vigilancia de la Contaminación Atmosférica generada por fuentes fijas, versión II, define los procedimientos para la medición de las emisiones atmosféricas. Lea los siguientes párrafos para aclarar la idea.
 
-    .bg17.p-5 
-      .row.justify-content-center.align-items-end.mb-5           
-        .col-lg-3.mb-md-3.p-0
+    .bg17.p-4
+      .row.justify-content-center.align-items-center        
+        .col-lg-3.my-3.mb-md-3.p-0
           img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/76.png')
-        .col-lg-9
+        .col-lg-9.my-3
           p.fst-italic(data-aos="fade-down") “Estos procedimientos de evaluación incluyen medición directa, balance de masas y factores de emisión. Durante la evaluación de emisiones contaminantes, se puede emplear una única metodología o se pueden emplear dos o más de ellas para determinar la confiabilidad de la información obtenida en la cuantificación de las emisiones.
 
           p.fst-italic(data-aos="fade-down") De acuerdo con lo establecido en el Artículo 76 de la Resolución 909 del 5 de junio de 2008 o la que la adicione, modifique o sustituya, el cumplimiento de los estándares se debe determinar mediante medición directa de las emisiones a través del ducto o chimenea que se debe construir en cada fuente fija puntual. 
 
           p.fst-italic(data-aos="fade-down") En aquellos casos en que por las condiciones físicas de los equipos que hacen parte del proceso que genera la emisión de los contaminantes al aire no sea posible la construcción de un ducto para la descarga de los contaminantes o cuando la construcción del ducto no permita contar con las condiciones para realizar la medición directa se deberá aplicar balance de masas. 
 
-          p.fst-italic(data-aos="fade-down") En el caso que no se cuente con la información necesaria para realizar el cálculo de las emisiones por balance de masas (cantidades y caracterización de materiales, consumo de combustibles y la demás información que establece el presente protocolo para la aplicación de dicha metodología) y que se demuestre técnicamente que dicha información no se pueda hallar para el desarrollo de la evaluación de emisiones, se deberá aplicar factores de emisión”. 
-
-      p(data-aos="fade-down").mb-5 Se invita a leer el documento completo que se encuentra en las referencias (Ministerio de Ambiente, Vivienda y Desarrollo Territorial, 2010a, p. 6). 
-
-      .row.justify-content-center.align-items-center        
-        .col-lg-10.up
-          .tarjeta.color-primario.p-3
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/temas/31.svg")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h5.mb-0 Para profundizar en el tema, se invita a revisar la sección de materiales complementarios, donde encontrará el video: Puntaje Nacional Chile (4 abril 2013), denominado “Unidades de concentración” y otros objetos de aprendizaje que son de sumo interés para su aprendizaje.
-                  .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                      span Descargar
-                      i.c6.fas.fa-file-download  
+          p.fst-italic.mb-0(data-aos="fade-down") En el caso que no se cuente con la información necesaria para realizar el cálculo de las emisiones por balance de masas (cantidades y caracterización de materiales, consumo de combustibles y la demás información que establece el presente protocolo para la aplicación de dicha metodología) y que se demuestre técnicamente que dicha información no se pueda hallar para el desarrollo de la evaluación de emisiones, se deberá aplicar factores de emisión”. 
 
     Separador 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.1 Medición directa 
-
+    p(data-aos="fade-down").mb-5 La Resolución 909 de 2008 y el Protocolo para el Control y Vigilancia de la Contaminación Atmosférica Generada por Fuentes Fijas, versión II, la define como aquella que:
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/8.png')})`}"
@@ -125,7 +107,7 @@
                     tbody.bgw              
                       tr
                         td.bright.ps-5
-                          ul.lista-ul.mb-0(data-aos="fade-down")
+                          ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
                             li 
                               i.fas.fa-circle.c3
                               | Sonda
@@ -139,7 +121,7 @@
                               i.fas.fa-circle.c3
                               | Caja calientes                         
                         td
-                          ul.lista-ul.mb-0(data-aos="fade-down")
+                          ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
                             li 
                               i.fas.fa-circle.c3
                               | Caja fría
@@ -186,7 +168,7 @@
         type="application/pdf"
         @mouseover="mostrarIndicador = false"
       )
-        span Ver Tabla 1 Métodos directos
+        span Ver Tabla 6 Métodos directos
         i.fas.fa-file-download
         .indicador--click(v-if="mostrarIndicador")  
 
@@ -226,7 +208,7 @@
         .bg16.p-4.mb-4
           p(data-aos="fade-down").mb-0.fst-italic   “..el Artículo 71 de la Resolución 909 de 2008 o la que la adicione, modifique o sustituya, y con el fin de garantizar que los resultados obtenidos mediante medición directa puedan ser comparados con los límites máximos permisibles establecidos para las fuentes fijas, se debe tener en cuenta que además de seguir los procedimientos establecidos en los métodos, contar con personal profesional y técnicos idóneos, para controlar las variables del proceso, se requiere contar con instalaciones físicas que permitan realizar las mediciones directas”.  
         p(data-aos="fade-down") Teniendo en cuenta esta referencia, la empresa deberá suministrar la infraestructura necesaria para que el personal profesional pueda acceder al sitio o puertos de muestreo con la seguridad apropiada para tal fin. Por ello, el protocolo de fuentes fijas establece las condiciones mínimas a tener en cuenta, que son:
-        ul.lista-ul.mb-0(data-aos="fade-down")
+        ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
           li 
             i.fas.fa-check.c4
             | Deberá suministrar como mínimo puertos de toma de muestra adecuados para los métodos aplicables a la fuente fija”.
@@ -247,7 +229,7 @@
     p(data-aos="fade-down").mb-5 Según lo establecido en el Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas, toda fuente susceptible de medición para cumplir los estándares establecidos en la Resolución 909 de 2008, como las chimeneas, debe contar como mínimo con las siguientes instalaciones:
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 6.
+      h5 Figura 2.
       span Estándares de la Resolución 909 de 2008. 
     img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/84.svg')
 
@@ -255,10 +237,10 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2 Puertos de muestreo     
 
-    p(data-aos="fade-down") Los puertos de muestreo se convierten en los conductos que se instalan perpendicularmente a la chimenea, los cuales permiten el ingreso del equipo a la chimenea para poder tomar la muestra, así como lo ilustra el protocolo en fuentes fijas en la tabla #[b.c1 Instalaciones mínimas para la realización de mediciones directas.]
+    p(data-aos="fade-down") Los puertos de muestreo se convierten en los conductos que se instalan perpendicularmente a la chimenea, los cuales permiten el ingreso del equipo a la chimenea para poder tomar la muestra, así como lo ilustra el protocolo en fuentes fijas en la tabla #[b Instalaciones mínimas para la realización de mediciones directas.]
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 7.
+      h5 Figura 3.
       span Esquema de los puertos de muestreo (Niples).    
     p(data-aos="fade-down").mb-5 Esquema de la ubicación y dimensiones de los puertos de toma de muestras (Niples)  
 
@@ -291,10 +273,10 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.3 Plataforma de muestreo 
 
-    p(data-aos="fade-down").mb-5 La plataforma es una estructura metálica que proporciona un área segura de trabajo, la cual permite que los trabajadores o personal competente, puedan tomar las muestras de forma segura. Generalmente, rodean la chimenea o parte de ella, para que los equipos que van a estar instalados puedan registrar los datos de las concentraciones que emiten las fuentes a la atmósfera, como lo ilustra el protocolo en fuentes fijas en la tabla #[b.c1 Instalaciones mínimas para la realización de mediciones directas.]
+    p(data-aos="fade-down").mb-5 La plataforma es una estructura metálica que proporciona un área segura de trabajo, la cual permite que los trabajadores o personal competente, puedan tomar las muestras de forma segura. Generalmente, rodean la chimenea o parte de ella, para que los equipos que van a estar instalados puedan registrar los datos de las concentraciones que emiten las fuentes a la atmósfera, como lo ilustra el protocolo en fuentes fijas en la tabla #[b Instalaciones mínimas para la realización de mediciones directas.]
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 8.
+      h5 Figura 4.
       span  Tipo de plataformas de toma de muestras.
 
     .row.justify-content-center.align-items-center.mb-5           
@@ -341,30 +323,16 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/89.png')
 
       .col-lg-8 
-        p(data-aos="fade-down") Cuando se va a realizar el estudio de emisiones, es importante que el acceso al sitio de muestreo cuente con las condiciones de seguridad, como pasamanos, escaleras, barandas y demás infraestructura necesaria para evitar cualquier tipo de accidentes, y que permita el monitoreo de los contaminantes, como lo ilustra el Protocolo en Fuentes Fijas en la tabla #[b.c2 Instalaciones mínimas para la realización de mediciones directas.] 
+        p(data-aos="fade-down") Cuando se va a realizar el estudio de emisiones, es importante que el acceso al sitio de muestreo cuente con las condiciones de seguridad, como pasamanos, escaleras, barandas y demás infraestructura necesaria para evitar cualquier tipo de accidentes, y que permita el monitoreo de los contaminantes, como lo ilustra el Protocolo en Fuentes Fijas en la tabla #[b Instalaciones mínimas para la realización de mediciones directas.] 
       
     .row.justify-content-center.align-items-center          
       .col-lg-10      
-        .titulo-sexto.color-acento-contenido
-          h5 Tabla 2.
-          span  Acceso seguro a la plataforma
         .tabla-a.color-acento-contenido.mt-2
           table.mb-2
             tbody.bgg1              
               tr 
-                td.bordertab.p-4.text-bold.btab1 Acceso seguro a plataforma de toma de muestras.           
+                td.w-300.bordertab.p-4.text-bold.btab1 Acceso seguro a plataforma de toma de muestras.           
                 td.bordertab.p-4 Debe contar con escaleras resistentes y antideslizantes para el acceso del personal responsable de la medición y de los equipos y contar con los dispositivos que permitan la instalación adecuada de los instrumentos de medición, La escalera debe tener como mínimo un ancho de 1 metro y debe contar con baranda de protección (para el caso de escaleras perimetrales la altura de la baranda debe ser mínimo de 1 metro). 
-
-    .row.justify-content-center.align-items-center.mt-4.mb-5        
-        .col-lg-10.up
-          .tarjeta.color-primario.p-3
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/temas/50.png")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h5.mb-0 Se le recuerda que para acceder a mayor información, puede consultar el documento del Ministerio de Ambiente, Vivienda y Desarrollo Territorial denominado Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas (2008, p. 23), que se encuentra en la sección de referencias.  
 
     .bg20
       p(data-aos="fade-down").pt-3.mb-5 La chimenea, o ducto, por donde se descargan los gases contaminantes se convierte en la principal infraestructura necesaria para la medición de las emisiones. Esta puede ser tanto circular como rectangular, y debe cumplir los estándares mínimos establecidos en el método 1 EPA, con el fin de estandarizar las estructuras y la forma de medir sus contaminantes, como lo ilustra el protocolo en fuentes fijas en la tabla Instalaciones mínimas para la realización de mediciones directas.
@@ -408,7 +376,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h5.mb-0 Como parte de su aprendizaje autónomo, se invita a leer el documento del Ministerio de Ambiente, Vivienda y Desarrollo Territorial Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas (2008, p. 24), el cual le permite profundizar en el tema. Se encuentra ubicado en la sección de referencias.<br> Para continuar aprendiendo sobre el tema, puede consultar el video Atmósfera-Muestreo 
+                    h5.mb-0 Como parte de su aprendizaje autónomo, se invita a leer el documento del Ministerio de Ambiente, Vivienda y Desarrollo Territorial #[i Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas] (2008, p. 24), el cual le permite profundizar en el tema. Se encuentra ubicado en la sección de referencias.
 
     Separador 
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -438,28 +406,28 @@
     SlyderF(columnas="col-lg-6 col-xl-4")
       .tarjeta.bg21.p-4.h-100.text-center
         img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
-        p.mb-0 “Identificar las operaciones unitarias, que originan cambios o transformaciones en las propiedades físicas de los materiales.”   
+        p.mb-0 Identificar las operaciones unitarias, que originan cambios o transformaciones en las propiedades físicas de los materiales.   
       .tarjeta.bg21.p-4.h-100.text-center
         img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
-        p.mb-0 “Identificar las operaciones unitarias, que originan cambios o transformaciones por medio de reacciones químicas.”  
+        p.mb-0 Identificar las operaciones unitarias, que originan cambios o transformaciones por medio de reacciones químicas.  
       .tarjeta.bg21.p-4.h-100.text-center
         img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
-        p.mb-0 “Establecer los límites físicos de los procesos unitarios, cuando las líneas de producción están bien diferenciadas, o imaginarios, cuando existen varias líneas en un mismo espacio cerrado. “   
+        p.mb-0 Establecer los límites físicos de los procesos unitarios, cuando las líneas de producción están bien diferenciadas, o imaginarios, cuando existen varias líneas en un mismo espacio cerrado.    
       .tarjeta.bg21.p-4.h-100.text-center
         img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
-        p.mb-0 “Establecer los límites de las operaciones unitarias, de una manera similar a la delimitación de los procesos unitarios.”       
+        p.mb-0 Establecer los límites de las operaciones unitarias, de una manera similar a la delimitación de los procesos unitarios.       
       .tarjeta.bg21.p-4.h-100.text-center
         img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
-        p.mb-0 “Identificar las entradas y salidas del proceso, lo cual se debe realizar a través de un diagrama de flujo del mismo. En sistemas de producción complejos, donde existan varios procesos independientes, se puede preparar un diagrama general con todos los procesos, cada uno representado por un bloque y preparar diagramas de flujo para cada proceso individual, indicando en detalle sus operaciones unitarias, procesos unitarios y los equipos utilizados en cada uno de ellos.”   
+        p.mb-0 Identificar las entradas y salidas del proceso, lo cual se debe realizar a través de un diagrama de flujo del mismo. En sistemas de producción complejos, donde existan varios procesos independientes, se puede preparar un diagrama general con todos los procesos, cada uno representado por un bloque y preparar diagramas de flujo para cada proceso individual, indicando en detalle sus operaciones unitarias, procesos unitarios y los equipos utilizados en cada uno de ellos.   
       .tarjeta.bg21.p-4.h-100.text-center
         img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
-        p.mb-0 “Cuantificar las entradas o insumos, teniendo en cuenta que todos los insumos que entran a un proceso u operación salen como productos o como residuos, vertimientos o emisiones. Los insumos de entrada a un proceso u operación unitaria pueden incluir, además de materias primas, materiales reciclados, productos químicos, agua y aire, entre otros. “  
+        p.mb-0 Cuantificar las entradas o insumos, teniendo en cuenta que todos los insumos que entran a un proceso u operación salen como productos o como residuos, vertimientos o emisiones. Los insumos de entrada a un proceso u operación unitaria pueden incluir, además de materias primas, materiales reciclados, productos químicos, agua y aire, entre otros.   
       .tarjeta.bg21.p-4.h-100.text-center
         img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
-        p.mb-0 “Cuantificar las salidas como productos, subproductos o residuos.”   
+        p.mb-0 Cuantificar las salidas como productos, subproductos o residuos.   
       .tarjeta.bg21.p-4.h-100.text-center
         img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/93.svg', alt='')
-        p.mb-0 “Realizar el balance de masas, teniendo en cuenta que la suma de todas las masas que entran en un proceso u operación debe ser igual a la suma de todas las masas que salen de dicho proceso u operación (es decir, la suma de masas de los productos, residuos y de todos los materiales de salida no identificados).”                    
+        p.mb-0 Realizar el balance de masas, teniendo en cuenta que la suma de todas las masas que entran en un proceso u operación debe ser igual a la suma de todas las masas que salen de dicho proceso u operación (es decir, la suma de masas de los productos, residuos y de todos los materiales de salida no identificados).                    
 
 
     .row.justify-content-center.align-items-center.my-5.pb-5  
@@ -544,10 +512,10 @@
             img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/99.svg') 
           .col-lg-8
             p(data-aos="fade-down") donde:
-            p(data-aos="fade-down").mb-1 #[b.c1 E = ] emisiones;
-            p(data-aos="fade-down").mb-1 #[b.c1 A = ] tasa de actividad;
-            p(data-aos="fade-down").mb-1 #[b.c1 EF =]  factor de emisión, y
-            p(data-aos="fade-down").mb-1 #[b.c1 ER =]  eficiencia global de reducción de emisiones, %              
+            p(data-aos="fade-down").mb-1 #[b E = ] emisiones;
+            p(data-aos="fade-down").mb-1 #[b A = ] tasa de actividad;
+            p(data-aos="fade-down").mb-1 #[b EF =]  factor de emisión, y
+            p(data-aos="fade-down").mb-1 #[b ER =]  eficiencia global de reducción de emisiones, %              
 
       .col-lg-6
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/100.png')   
@@ -571,10 +539,10 @@
             img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/102.svg') 
           .col-lg-8
             p(data-aos="fade-down") donde:
-            p(data-aos="fade-down").mb-1 #[b.c1 E: ]emisión
-            p(data-aos="fade-down").mb-1 #[b.c1 fe:] factor de emisión
-            p(data-aos="fade-down").mb-1 #[b.c1 Na:] Nivel de actividad diaria, semanal y mensual de la fuente estimada.
-            p(data-aos="fade-down").mb-1 #[b.c1 Ea:] Eficiencia de abatimiento       
+            p(data-aos="fade-down").mb-1 #[b E: ]emisión
+            p(data-aos="fade-down").mb-1 #[b fe:] factor de emisión
+            p(data-aos="fade-down").mb-1 #[b Na:] Nivel de actividad diaria, semanal y mensual de la fuente estimada.
+            p(data-aos="fade-down").mb-1 #[b Ea:] Eficiencia de abatimiento       
       .col-lg-4
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/101.png') 
 
@@ -614,7 +582,7 @@
         .col-lg-7 
           h5(data-aos="fade-down") Identificación de las fuentes de emisión 
           p(data-aos="fade-down") Es necesario realizar una amplia descripción de las fuentes de emisión teniendo en cuenta las variables que afectan la emisión, en especial las características de las siguientes fuentes: 
-          ul.lista-ul.mb-0(data-aos="fade-down")
+          ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
               li 
                 i.fas.fa-check.c1
                 | Construcción y demolición de edificaciones. 
@@ -648,15 +616,12 @@
         .row.justify-content-center.align-items-center(titulo="Información básica de la fuente") 
           .col-12
             p Para realizar esta acción se debe llevar un registro de la siguiente información:
-            .titulo-sexto.color-acento-contenido
-                h5 Figura 10.
-                span Información básica.
-                
+               
             .row.justify-content-center
               .col-lg-4.my-3
                 .bg25.p-3.h-100
                   h5 Proceso
-                  ul.lista-ul.mb-0
+                  ul.lista-ul.fa-ul.mb-0
                     li 
                       i.fas.fa-check.c1
                       | Descripción y nombre.
@@ -675,14 +640,14 @@
               .col-lg-4.my-3
                 .bg25.p-3.h-100
                   h5 Capacidad
-                  ul.lista-ul.mb-0
+                  ul.lista-ul.fa-ul.mb-0
                     li 
                       i.fas.fa-check.c1
                       | Capacidad de operación de la planta al momento de la evaluación de los dispositivos de control y sus correspondientes parámetros de operación de vida útil de los dispositivos de control.                                                
               .col-lg-4.my-3
                 .bg25.p-3.h-100
                   h5 Frecuencia
-                  ul.lista-ul.mb-0
+                  ul.lista-ul.fa-ul.mb-0
                     li 
                       i.fas.fa-check.c1
                       | Frecuencia con la cual se realiza el mantenimiento preventivo de los equipos y los correspondientes sistemas de control.
@@ -692,7 +657,7 @@
               .col-lg-4.my-3
                 .bg25.p-3.h-100
                   h5 Cambios
-                  ul.lista-ul.mb-0
+                  ul.lista-ul.fa-ul.mb-0
                     li 
                       i.fas.fa-check.c1
                       | Cambios que se hayan presentado en el proceso o en los sistemas de control durante la evaluación. 
@@ -702,7 +667,7 @@
               .col-lg-4.my-3
                 .bg25.p-3.h-100
                   h5 Datos
-                  ul.lista-ul.mb-0
+                  ul.lista-ul.fa-ul.mb-0
                     li 
                       i.fas.fa-check.c1
                       | Deficiencias y/o desviaciones en el procedimiento de evaluación. 
@@ -728,7 +693,7 @@
           .col-auto.my-3 
             img.img-a.img-t.rot1(src='@/assets/curso/temas/106.svg') 
           .col.my-3
-            p(data-aos="fade-down").mb-0.fst-italic Como ha venido aprendiendo durante el proceso de aprendizaje en este contenido, el medio ambiente está siendo enrarecido por el volumen de emisiones dañinas que las empresas y el sector productivo están arrojando al aire; este debe ser medido con el fin de que se cumplan los estándares internacionales y nacionales en temas de calidad del medio ambiente, cumpliendo así el control de emisiones propuesto por la UNESCO en la agenda 2030, entidad de las Naciones Unidas.                
+            p(data-aos="fade-down").mb-0 Como ha venido aprendiendo durante el proceso de aprendizaje en este contenido, el medio ambiente está siendo enrarecido por el volumen de emisiones dañinas que las empresas y el sector productivo están arrojando al aire; este debe ser medido con el fin de que se cumplan los estándares internacionales y nacionales en temas de calidad del medio ambiente, cumpliendo así el control de emisiones propuesto por la UNESCO en la agenda 2030, entidad de las Naciones Unidas.                
 </template>
 <script>
 export default {

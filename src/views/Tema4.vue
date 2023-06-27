@@ -8,50 +8,24 @@
         span 4
       h1 Normativa de emisiones
 
-    p(data-aos="fade-down").mb-5 Para poder cumplir con los Objetivos de Desarrollo Sostenible, agenda 2030, Colombia debe diseñar una serie de normas y resoluciones, con el fin de disminuir la emisión de gases o partículas al aire. Por lo anterior, se invita a revisar este tema en el siguiente documento descargable.
-    img.img-t.img-a.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/148.png')
-
-    .row.justify-content-center.align-items-start.mb-5           
-      .col-lg-6
-        p(data-aos="fade-down") Como parte de su aprendizaje, le invito a revisar el siguiente tema, con el fin de comprender cómo se interpretan los resultados de las emisiones.
-
+    .row.justify-content-center.align-items-start.mb-4           
+      .col-lg-6.my-3
         p(data-aos="fade-down") Conocer el marco normativo que regula la contaminación del aire en nuestro país es muy importante para establecer las acciones de prevención y control de los contaminantes que nos afectan en la actualidad. En esta sección, conocerá: las leyes, los decretos, las resoluciones, los protocolos y demás documentación vigente.      
-      .col-lg-6
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-2
-              img.img-t(src="@/assets/curso/temas/38.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 CF9_PDF2_ 4_ Normas de emisión
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.c6.fas.fa-file-download  
+      .col-lg-6.my-3
+        img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/148.png')
 
     Separador 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 4.1 Calidad del aire      
       
-    .row.justify-content-center.align-items-end.mb-5           
+    .row.justify-content-center.align-items-end.mb-4           
       .col-lg-7.my-3      
         .cajon.color-acento-contenido(data-aos="flip-down").p-4.mb-4
-          p.mb-0(data-aos="fade-down") Las normas de calidad del aire en Colombia se convierten en la base para el seguimiento, así lo afirma El Instituto de Hidrología Meteorología y Estudios Ambientales –IDEAM, donde “... el monitoreo y control de la contaminación atmosférica ha tomado día a día mayor relevancia, debido a que, según cifras de la Organización Mundial para la Salud, una de cada ocho muertes ocurridas a nivel mundial es ocasionada por la contaminación del aire. A nivel nacional, el Departamento Nacional de Planeación estimó que, durante el año 2015, los efectos de este fenómeno estuvieron asociados a 10.527 muertes y 67,8 millones de síntomas y enfermedades.
+          p.mb-0(data-aos="fade-down") Las normas de calidad del aire en Colombia se convierten en la base para el seguimiento, así lo afirma El Instituto de Hidrología Meteorología y Estudios Ambientales –IDEAM, donde "... el monitoreo y control de la contaminación atmosférica ha tomado día a día mayor relevancia, debido a que, según cifras de la Organización Mundial para la Salud, una de cada ocho muertes ocurridas a nivel mundial es ocasionada por la contaminación del aire. A nivel nacional, el Departamento Nacional de Planeación estimó que, durante el año 2015, los efectos de este fenómeno estuvieron asociados a 10.527 muertes y 67,8 millones de síntomas y enfermedades".
         p(data-aos="fade-down").mb-0 Adicionalmente, los costos ambientales asociados a la contaminación atmosférica en Colombia, durante los últimos años, se incrementaron, pasando de 1,1% del PIB de 2009 ($5,7 billones de pesos) a 1,59% del PIB de 2014 ($12 billones de pesos) y del 1,93% del PIB en 2015 ($15.4 billones de pesos), lo cual pone en evidencia la necesidad de seguir implementando estrategias para controlar, evaluar y monitorear estas sustancias”.            
       .col-lg-5.my-3      
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/149.png')
 
-    .row.justify-content-center.align-items-center.mb-5        
-      .col-lg-10.up
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/50.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 Como parte de su aprendizaje, se invita a revisar la página web del IDEAM (2014), donde encontrará información sobre la contaminación y calidad ambiental. Esta es una entidad del Estado colombiano que se encarga de hacer investigación sobre el medio ambiente. Para acceder al enlace, se recomienda ir a la sección de referencias.
 
     .row.justify-content-start.pt-5.mb-4          
       .col-auto.bg9.p-3(data-aos="flip-down")
@@ -59,7 +33,7 @@
 
     p(data-aos="fade-down") A continuación, encontrará un listado de normas colombianas que dan las pautas a nivel nacional en el tema del manejo de la contaminación del aire. Para profundizar en el tema, puede ir a la sección de materiales de apoyo.  
 
-    .row.justify-content-center.align-items-center.mb-5           
+    .row.justify-content-center.align-items-center.mb-4           
       .col-lg-6.my-3
         LineaTiempoD.color-secundario
           p(numero="1" titulo="Resolución 2254 de 2017") Por la cual se adopta la norma de calidad del aire ambiente y se dictan otras disposiciones.       
@@ -68,17 +42,6 @@
 
       .col-lg-6.my-3
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/151.png')
-
-    .row.justify-content-center.align-items-center.mb-5        
-      .col-lg-10.up
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/50.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 Como parte de su aprendizaje autónomo, se invita a revisar las anteriores resoluciones con el fin de reforzar su aprendizaje sobre la normatividad en Colombia. Estas las puede encontrar en la sección de referencias. 
 
     .row.justify-content-start.pt-5.mb-4          
       .col-auto.bg9.p-3(data-aos="flip-down")
@@ -161,20 +124,8 @@
             .p-2
               p.mb-0 #[b Protocolo para el control y vigilancia] de la contaminación atmosférica generada por fuentes fijas. #[b Nota:] Ministerio de Medio Ambiente, Vivienda y Desarrollo Territorial. #[b "Protocolo para el monitoreo y seguimiento de la calidad del aire"] (2008).  
 
-    .row.justify-content-center.align-items-center.mb-5        
-      .col-lg-10.up
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/50.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 Se invita a profundizar en el tema accediendo a la sección de referencias, donde encontrará la normatividad y regulaciones del IDEAM.
 
-    .titulo-sexto.color-acento-contenido
-      h5 Figura 4.
-      span Métodos de medición
+    p(data-aos="fade-down").mb-5 Los métodos de medición son:
     img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/157.svg') 
 
 

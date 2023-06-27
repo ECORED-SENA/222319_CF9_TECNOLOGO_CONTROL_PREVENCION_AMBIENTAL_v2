@@ -27,7 +27,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.1 Leyes de las reacciones químicas
 
-    p(data-aos="fade-down").mb-5 A continuación, se presenta un objeto de aprendizaje donde podrá revisar los exponentes de las leyes de las reacciones químicas.  
+    p(data-aos="fade-down").mb-5 A continuación, se presentan las leyes de las reacciones químicas. 
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-acento-botones--borde.p-4(titulo="Leyes de las reacciones<br> químicas")
         .row.justify-content-center.align-items-center
@@ -80,32 +80,17 @@
       .col-lg-6
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/113.png')
 
-    p(data-aos="fade-down").mb-5 En toda reacción química no se crean ni se destruyen átomos, los que están presentes se reorganizan para formar nuevas sustancias, conservándose la materia. #[b.c1 ¿Recuerda la Ley de conservación de la materia?] Importante para comprender el equilibrio entre reactivos y productos en una reacción.
-
-    .row.justify-content-center.align-items-center.mb-5        
-        .col-lg-10.up
-          .tarjeta.color-primario.p-3
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/temas/38.svg")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h5.mb-0 Para profundizar en el tema, se invita a ver el documento ecuaciones químicas, que se encuentra en la sección de referencias. 
-                  .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                      span Descargar
-                      i.c6.fas.fa-file-download            
+    p(data-aos="fade-down").mb-5 En toda reacción química no se crean ni se destruyen átomos, los que están presentes se reorganizan para formar nuevas sustancias, conservándose la materia. #[b ¿Recuerda la Ley de conservación de la materia?] Importante para comprender el equilibrio entre reactivos y productos en una reacción.
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
         p(data-aos="fade-down") Para continuar, con el tema, se invita a revisar el siguiente ejemplo: 
         
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
-          span Tren de muestreo. 
+          h5 Figura 5.
+          span Ecuación química
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/114.svg')
-        figcaption #[b Nota.] Tomada de Peña y Bautista (2018). https://explorerbiogen.wordpress.com/2018/02/01/naturaleza-de-las-reacciones-quimicas/
+        figcaption Nota. Tomada de Peña y Bautista (2018). 
 
     .row.justify-content-start.pt-5.mb-4          
       .col-auto.bg9.p-3(data-aos="flip-down")
@@ -139,7 +124,7 @@
           .row.justify-content-center.align-items-center           
             .col-lg-5
               p Son aquellas en las que dos o más sustancias (reactivos) se combinan para formar un producto más complejo. Estas pueden ser:
-              ul.lista-ul.mb-0(data-aos="fade-down")
+              ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
                 li 
                   i.fas.fa-circle.c3
                   | Síntesis
@@ -196,58 +181,22 @@
           p 2 Na + 2 H#[sub 2]O → 2 NaOH + H#[sub 2]
       .row.justify-content-center.align-items-center(titulo="Reacciones de precipitación") 
         .col-12
-          p Las reacciones de sustitución o desplazamiento pueden ser simples o dobles. En una reacción de sustitución o desplazamiento simple, un elemento es reemplazado por otro elemento más reactivo en un compuesto para producir un nuevo compuesto y el elemento desplazado.  
-          p La ecuación química general es:  
-          p A + BC → AC + B
+          p En una reacción de precipitación, la partícula intercambiada es un ión. Se produce, en general, en disolución acuosa y entre sustancias iónicas. En la reacción, un anión y un catión se ponen en contacto y dan lugar a un compuesto iónico insoluble que precipita.
           h5 Ejemplos: 
-          p Fe#[sub 2] O#[sub 3]+ 2 Al → Al#[sub 2] O#[sub 3] + 2 Fe
-          p 2 Na + 2 H#[sub 2] O → 2 NaOH + H#[sub 2]           
+          p AgNO #[sub 3] (aq) + NaCl (aq) → NaNO #[sub 3] (aq) + ↓AgCl (s)
+          p Para saber si se produce una reacción de este tipo, es necesario saber qué sustancia es insoluble y por esto se ponen en la ecuación química los estados físicos de las sustancias que intervienen.          
       .row.justify-content-center.align-items-center(titulo="Reacciones de oxidación-reducción") 
         .col-12
-          p En una reacción de doble sustitución o desplazamiento, hay dos compuestos químicos que intercambian dos elementos para formar dos nuevos compuestos.
-          p La ecuación química general es:
-          p AB + CD → AD + CB
-          h5 Ejemplos:
-          p LiH + H#[sub 2]O → LiOH + H#[sub 2]↑ (H#[sub 2] , gas)
-          p HCl + NaOH → NaCl + H#[sub 2]O (H#[sub 2]O, agua) 
-
-    p(data-aos="fade-down").mb-5 Por otro lado, es indispensable revisar los conceptos relacionados con las reacciones según la partícula transferida, los cuales se desarrollan a continuación:
-
-    .row.justify-content-center.align-items-stretch.mb-5           
-      .col-lg-6.bg26_1.p-5.my-3(data-aos="fade-right")
-        img.img-a.img-t.mb-4(src='@/assets/curso/temas/126.png' alt='AvatarTop')
-        .row.justify-content-center.mb-4          
-          .col-auto.bg9.p-3(data-aos="flip-down")
-            h5.mb-0(data-aos="fade-down") Reacciones de precipitación
-        p En una reacción de precipitación, la partícula intercambiada es un ión. Se produce, en general, en disolución acuosa y entre sustancias iónicas. En la reacción, un anión y un catión se ponen en contacto y dan lugar a un compuesto iónico insoluble que precipita. 
-        h5 Ejemplos:
-        .bgw.p-2.mb-4
-          p.mb-0 AgNO#[sub 3](aq) + NaCl#[sub 3](aq) → NaNO#[sub 3] (aq) + ↓AgCl (s)
-        p Para saber si se produce una reacción de este tipo, es necesario saber qué sustancia es insoluble y por esto se ponen en la ecuación química los estados físicos de las sustancias que intervienen.
-      .col-lg-6.bg27.p-5.my-3(data-aos="fade-left")
-        img.img-a.img-t.mb-4(src='@/assets/curso/temas/127.png' alt='AvatarTop')
-        .row.justify-content-center.mb-4          
-          .col-auto.bg9.p-3(data-aos="flip-down")
-            h5.mb-0(data-aos="fade-down") Reacciones de oxidación-reducción
-        p Las reacciones de oxidación-reducción (redox) implican la transferencia de electrones entre especies químicas. Se llaman también reacciones de transferencia de electrones, ya que la partícula que se intercambia es el electrón.
-
-        p En una reacción de oxidación-reducción, tienen lugar dos procesos simultáneos: la oxidación y la reducción.
-
-        p El aluminio reacciona con el oxígeno para formar óxido de aluminio, 
-        .bgw.p-2.mb-4
-          p.mb-0 4 Al + 3 O#[sub 2]→ 2 Al#[sub 2]O#[sub 3] 
-        p En el transcurso de esta reacción, cada átomo de aluminio pierde tres electrones, para formar un ion Al 3+
-        .bgw.p-2.mb-4
-          p.mb-0 Al → Al 3+ + 3 e - 
-        p Y cada molécula de O 2 gana cuatro electrones, para formar dos iones O 2 -
-
-        .bgw.p-2.mb-4
-          p.mb-0 O 2 + 4 e - → 2 O 2-
-
-        p Como los electrones ni se crean ni se destruyen en las reacciones químicas, la oxidación y la reducción son inseparables.
-
-        p El aluminio cede electrones y el oxígeno los gana. El aluminio actúa como agente reductor, se oxida (su número de oxidación pasa de 0 a +3) cediendo tres electrones, mientras que el oxígeno actúa como agente oxidante, se reduce (su número de oxidación pasa de 0 a -2) ganando dos electrones.  
-
+          p Las reacciones de oxidación-reducción (redox) implican la transferencia de electrones entre especies químicas. Se llaman también reacciones de transferencia de electrones, ya que la partícula que se intercambia es el electrón.
+          p En una reacción de oxidación-reducción, tienen lugar dos procesos simultáneos: la oxidación y la reducción.
+          p El aluminio reacciona con el oxígeno para formar óxido de aluminio,
+          p 4 Al + 3 O #[sub 2] → 2 Al #[sub 2] O #[sub 3]
+          p En el transcurso de esta reacción, cada átomo de aluminio pierde tres electrones, para formar un ion Al 3+
+          p Al → Al 3+ + 3 e -
+          p Y cada molécula de O 2 gana cuatro electrones, para formar dos iones O 2-
+          p O 2 + 4 e - → 2 O 2- 
+          p Como los electrones ni se crean ni se destruyen en las reacciones químicas, la oxidación y la reducción son inseparables.
+          p El aluminio cede electrones y el oxígeno los gana. El aluminio actúa como agente reductor, se oxida (su número de oxidación pasa de 0 a +3) cediendo tres electrones, mientras que el oxígeno actúa como agente oxidante, se reduce (su número de oxidación pasa de 0 a -2) ganando dos electrones.
 
     .row.justify-content-center.align-items-end.mb-5           
       .col-lg-5.my-3
@@ -295,7 +244,7 @@
       .col-lg-7
         p(data-aos="fade-down") La combustión no es más que una reacción química de oxidación, en la que normalmente se va a liberar una gran cantidad de calor (energía). La reacción de un elemento químico con el oxígeno se llama oxidación. Para entender este tema, se hace necesario adquirir los siguientes conceptos: 
         .bg16.p-5
-          ul.lista-ul.mb-0(data-aos="fade-down")
+          ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
             li 
               i.fas.fa-check.c1
               | Cuando el calor de reacción es negativo, dicho calor es liberado o entregado por el sistema, y el proceso se llama exotérmico. 
@@ -326,7 +275,7 @@
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 6.
+          h5 tabla 7.
           span Tipos de combustibles.     
         .tabla-a.color-acento-contenido.mt-2
           table.mb-2
@@ -388,7 +337,7 @@
 
       .col-lg-7
         .titulo-sexto.color-acento-contenido
-          h5 Figura 7.
+          h5 tabla 8.
           span Composición del comburente (aire)     
         .tabla-a.color-acento-contenido.mt-2
           table.mb-2
@@ -437,7 +386,7 @@
               p En los productos de la combustión completa, se pueden encontrar los siguientes reactantes y sus correspondientes productos:                    
             .col-lg-6 
               .titulo-sexto.color-acento-contenido
-                h5 Figura 8.
+                h5 tabla 9.
                 span Productos de la combustión 
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/131.svg')
 
@@ -447,23 +396,12 @@
       .row.justify-content-center.align-items-center(titulo="Combustión incompleta") 
         .col-12          
           p El combustible no se oxida completamente. Se forman sustancias que todavía pueden seguir oxidándose; por ejemplo, CO. Estas sustancias se denominan inquemados. La presencia de inquemados indica que la combustión se está realizando en forma incompleta. Otros inquemados pueden ser H2, CnHm, H2S y C. Estas sustancias son los contaminantes más comunes que escapan a la atmósfera en los gases de combustión.
-
-    .row.justify-content-center.align-items-center.my-5        
-      .col-lg-10.up
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/50.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 Para desarrollar su aprendizaje autónomo, se invita a revisar la página web Naturaleza de las reacciones químicas (Peña y Bautista, 2018), con el fin de profundizar en el tema tratado anteriormente. La información la puede encontrar en la sección de referencias. 
-
+   
     Separador 
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.5 Balanceo de ecuaciones  
 
-    p(data-aos="fade-down").mb-5 Balancear una ecuación es realmente un procedimiento de ensayo y error, que se fundamenta en la búsqueda de diferentes coeficientes numéricos que hagan que el número de cada tipo de átomos presentes en la reacción química sea el mismo tanto en reactivos como en productos.                  
+    p(data-aos="fade-down") Balancear una ecuación es realmente un procedimiento de ensayo y error, que se fundamenta en la búsqueda de diferentes coeficientes numéricos que hagan que el número de cada tipo de átomos presentes en la reacción química sea el mismo tanto en reactivos como en productos.                  
 
     .row.justify-content-start.pt-5.mb-4          
       .col-auto.bg9.p-3(data-aos="flip-down")
@@ -473,7 +411,7 @@
       .col-lg-6
         p(data-aos="fade-down") Este método es utilizado para ecuaciones sencillas y consiste en colocar coeficientes a la izquierda de cada sustancia, hasta tener igual número de átomos tanto en reactantes como en productos. Observe el siguiente ejemplo: 
         img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/134.svg')
-        p(data-aos="fade-down") Para balancearlos hay que colocar un coeficiente 3 al H   y un coeficiente 2 al producto NH:
+        p(data-aos="fade-down") Para balancearlos hay que colocar un coeficiente 3 al H#[sub 2] y un coeficiente 2 al producto NH#[sub 3]:
         img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/135.svg')
         p(data-aos="fade-down") La ecuación ha quedado equilibrada, el número de átomos de cada elemento es el mismo en reactivos y productos.
                                    
@@ -508,21 +446,7 @@
 
 
     .bg30.p-5 
-      p(data-aos="fade-down") Como los procesos de óxido-reducción son de intercambio de electrones, las ecuaciones químicas estarán igualadas cuando el número de electrones cedidos por el agente oxidante sea igual al recibido por el agente reductor. El número de electrones intercambiados se calcula fácilmente, teniendo en cuenta la variación de los números de oxidación de los elementos. Revise los siguientes pasos: 
-      .row.justify-content-center.align-items-center.mt-5        
-        .col-lg-10.up
-          .tarjeta.color-primario.p-3
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/temas/38.svg")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h5.mb-0 Para profundizar en el tema, puede revisar las referencias o buscar por su cuenta en una página de Internet con contenido de alta calidad educativa el tema.
-                  .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                      span Descargar
-                      i.c6.fas.fa-file-download 
+      p(data-aos="fade-down").mb-0 Como los procesos de óxido-reducción son de intercambio de electrones, las ecuaciones químicas estarán igualadas cuando el número de electrones cedidos por el agente oxidante sea igual al recibido por el agente reductor. El número de electrones intercambiados se calcula fácilmente, teniendo en cuenta la variación de los números de oxidación de los elementos. 
 
     Separador 
     #t_3_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -532,7 +456,7 @@
     .row.justify-content-center.align-items-end.mb-5           
       .col-lg-6    
         .titulo-sexto.color-acento-contenido
-          h5 Figura 15.
+          h5 Figura 6.
           span Reacciones químicas 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/138.svg')   
       .col-lg-6
@@ -546,7 +470,7 @@
     p(data-aos="fade-down").mb-5 La estequiometría se emplea para determinar las cantidades de reactivos y productos involucrados en una reacción química. Existe una gran cantidad de problemas relacionados con esta, como se evidencia en el siguiente ejemplo:
 
     .bg31.p-5
-      p(data-aos="fade-down").mb-5 "En los vehículos espaciales se utiliza hidróxido de litio sólido para eliminar el dióxido de carbono exhalado. El hidróxido de litio reacciona con el dióxido de carbono gaseoso, formando carbonato de sodio sólido y agua líquida. #[b.c1 ¿Cuántos gramos de dióxido de carbono puede absorber 1 g de hidróxido de litio?]        
+      p(data-aos="fade-down").mb-5 En los vehículos espaciales se utiliza hidróxido de litio sólido para eliminar el dióxido de carbono exhalado. El hidróxido de litio reacciona con el dióxido de carbono gaseoso, formando carbonato de sodio sólido y agua líquida. ¿Cuántos gramos de dióxido de carbono puede absorber 1 g de hidróxido de litio?    
       .row.justify-content-center.align-items-center.mb-5           
         .col-lg-10
           p(data-aos="fade-down") SOLUCIÓN
@@ -569,26 +493,15 @@
                 img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/140.svg')   
           p(data-aos="fade-down") #[b Comprobación:] vemos que 23.95 ≈ 24; 24 _ 2 _ 48 y 44/48 es un poco menor que 1. Por tanto, la magnitud de la respuesta es razonable con base en la cantidad inicial de LiOH; las cifras significativas y las unidades también son apropiadas."
 
-      .row.justify-content-center.align-items-center.mt-5        
-        .col-lg-10.up
-          .tarjeta.color-primario.p-3
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/temas/50.png")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h5.mb-0 Como parte de su aprendizaje autónomo, se invita a revisar la siguiente página web Profe Cerebrito (2013a), en la cual puede encontrar más información sobre la información cuantitativa en una ecuación. Se recomienda ir a la sección de referencias para ubicar allí el enlace.
-
     .row.justify-content-center.align-items-end.my-5           
       .col-lg-7
         .row.justify-content-start.pt-5.mb-4          
           .col-auto.bg9.p-3(data-aos="flip-down")
-            h5.mb-0(data-aos="fade-down") Cálculos de reactivo limitante y porcentaje de rendimiento. 
+            h5.mb-0(data-aos="fade-down") Cálculos de reactivo limitante y porcentaje de rendimiento
 
         p(data-aos="fade-down") En una reacción química, no necesariamente se consume la totalidad de los reactivos. Generalmente, alguno de ellos se encuentra en exceso. El otro reactivo, que es el que se consume totalmente, se conoce como reactivo limitante. Para que una reacción se lleve a cabo, debe haber sustancias (reactivos) capaces de reaccionar para formar los productos, pero basta que uno solo de los reactivos se agote para que la reacción termine. En los procesos industriales, generalmente, se usa un exceso del reactivo más barato y fácil de conseguir, y se selecciona como limitante el más caro o difícil de conseguir. Ejemplo  
         h5(data-aos="fade-down") Considere la reacción siguiente: 
-        p(data-aos="fade-down") Suponga que una disolución que contiene 3.50 g de Na3PO4, se mezcla con una disolución que contiene 6.40 g de Ba (NO3)2. #[b.c1 ¿Cuántos gramos de Ba2(PO4)2 podrán formarse?]                         
+        p(data-aos="fade-down") Suponga que una disolución que contiene 3.50 g de Na3PO4, se mezcla con una disolución que contiene 6.40 g de Ba (NO3)2. #[b ¿Cuántos gramos de Ba2(PO4)2 podrán formarse?]                         
       .col-lg-5
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/141.png')   
 
@@ -646,18 +559,9 @@
                 h5.mb-0 3.50 g - 2.67 g = 0.82 g NaNO3
 
 
-          .tarjeta.color-primario.p-3
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/temas/50.png")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h5.mb-0 Para desarrollar su aprendizaje autónomo, se invita a revisar la siguiente página web Profe Cerebrito (2013b), donde encontrará información sobre los reactivos, limitantes y teoría. Para acceder a la información, puede ir a la sección de referencias.
-
     .row.justify-content-start.pt-5.mb-4          
       .col-auto.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Rendimientos teóricos.
+        h5.mb-0(data-aos="fade-down") Rendimientos teóricos
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-7
@@ -708,21 +612,8 @@
             span.text-bold b.
           i Una vez que se ha calculado el rendimiento teórico, se usa la ecuación para calcular el porcentaje de rendimiento.
           
-    .row.justify-content-center.align-items-center.mt-5           
-      .col-lg-10.up          
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/50.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-2 Para reforzar su aprendizaje, se invita a revisar los siguientes documentos, los cuales puede encontrar en la sección de referencias.
-                  p.mb-0.fst-italic Reactivos, limitantes, teoría y ejercicios resueltos, el cual puede encontrar en la página web Profe Cerebrito (2013b).  Química. La ciencia central, de los autores Brown, LeMay, Bursten y Burdge (2004, p 95-102).  
 
-    p.pt-5.mt-5.up(data-aos="fade-down").fst-italic Para redondear con dos decimales, se usa como base el tercer decimal. Si este es mayor o igual a 5, se aumenta una unidad al segundo decimal; si es menor o igual a 4 se conservará la cifra del segundo decimal.
-
-    p(data-aos="fade-down").fst-italic A continuación, se ampliarán temas normativos que son importantes para comprender los conceptos vistos y su importancia.                          
+    p.pt-5.mt-5.up(data-aos="fade-down") Para redondear con dos decimales, se usa como base el tercer decimal; si este es mayor o igual a 5, se aumenta una unidad al segundo decimal, si es menor o igual a 4, se conservará la cifra del segundo decimal.                          
 </template>
 
 <script>

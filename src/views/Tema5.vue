@@ -12,7 +12,6 @@
       .col-lg-7
         p(data-aos="fade-down") Uno de los pasos más importantes para hacer control de la calidad del aire que hay en Colombia es hacer mediciones de manera periódica de las emisiones lanzadas al aire y luego realizar la interpretación de los datos obtenidos en ellas, con el fin de identificar si están acordes con los estándares internacionales definidos para el control de la concentración de estas sustancias que las empresas lanzan al medio ambiente, esto con el fin de diseñar políticas y dar pautas para su adecuado manejo, y de esa forma cumplir con la agenda 2030 definida por la UNESCO.
 
-        p(data-aos="fade-down") Para profundizar en este tema, se invita a descargar el siguiente documento.
         .cajon.color-acento-contenido(data-aos="flip-down").p-4.mb-4
           p.mb-0(data-aos="fade-down") En Colombia, las normas relacionadas con la emisión e inmisión de contaminantes al aire establecen una serie de correcciones a los resultados que se registran en campo después de obtenidas las muestras de los contaminantes. A tales adaptaciones de presión y temperatura se les denominan correcciones de referencia, las cuales establecen a una temperatura 298.15 ºK y una presión atmosférica de 760 mmHg o 1 atmósfera.      
         p(data-aos="fade-down") A continuación, verá cómo se realizan estas correcciones tanto en inmisión como en emisión.           
@@ -28,7 +27,7 @@
       .col-lg-5.my-3
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/159.png')                
       .col-lg-7.my-3
-        p(data-aos="fade-down") A continuación, se presenta una metodología para el cálculo de las concentraciones a condiciones de referencia #[b.c1 (Temperatura: 298.15 ºK y Presión: 760 mmHg ≈ 101325 Pa ≈ 101.325 kPa)] a partir de los valores promedios horarios de concentración.
+        p(data-aos="fade-down") A continuación, se presenta una metodología para el cálculo de las concentraciones a condiciones de referencia #[b (Temperatura: 298.15 ºK y Presión: 760 mmHg ≈ 101325 Pa ≈ 101.325 kPa)] a partir de los valores promedios horarios de concentración.
 
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
@@ -36,24 +35,13 @@
           .tarjeta.bg37.j
             .p-2.ps-0
               p.mb-0 La #[b Resolución 2254 de 2017 establece, en su Capítulo I, Artículo 2,] los niveles máximos permisibles para contaminantes criterio y los tiempos de exposición para cada contaminante.
-
-    .row.justify-content-center.align-items-center.mb-5        
-      .col-lg-10.up
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/50.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 Para reforzar su aprendizaje, se invita a revisar los documentos mencionados con anterioridad, los cuales se pueden encontrar en la sección de referencia. Esto con el fin de que profundice los conceptos.     
   
     p(data-aos="fade-down") Para comparar los datos de calidad de aire obtenidos de las mediciones con la norma, debe hacer un procedimiento básico. Se sugiere el procedimiento que a continuación se presenta:
     
     .row.justify-content-center.mb-5           
       .col-lg-6
         .bg38.h-100.p-5
-          ul.lista-ul.mb-0(data-aos="fade-down")
+          ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
             li 
               i.fas.fa-check.c1
               | Con los datos ya validados (e identificados con banderas) y organizados por orden cronológico, se calculará primeramente el valor promedio horario (#[i promedio de todos los datos recolectados y válidos obtenidos en una hora]).
@@ -120,16 +108,6 @@
             .col-lg-4.my-4
               img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/166.png')
 
-
-          .tarjeta.color-primario.p-3.mb-4
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/temas/50.png")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h5.mb-0 Para continuar aprendiendo, se invita a revisar la página web del Ministerio de Ambiente, Vivienda y Desarrollo Territorial (2008), quienes realizaron el Protocolo para el Monitoreo y Seguimiento de la Calidad del Aire. Manual de Operación de Sistemas de Vigilancia de la Calidad del Aire (p. 121-124). Para acceder a la información, puede ir a la sección de referencias. 
-
     Separador 
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.2 Correcciones de resultados en emisión o fuentes fijas   
@@ -194,7 +172,7 @@
     p(data-aos="fade-down").mb-5 Una vez obtenidos los resultados, se comparan directamente con la norma. Dependiendo si la fuente corresponde a procesos relacionados a actividades industriales, se toma como base el Artículo 4, como lo muestra la siguiente tabla. 
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 8.
+      h5 Tabla 10.
       span Estándares de emisión admisible     
     .tabla-a.color-acento-contenido.mt-2
       table.mb-2
@@ -260,11 +238,11 @@
               td.text-center(colspan="2") 8
 
 
-    p(data-aos="fade-down").fst-italic.mt-5 Las dioxinas y furanos se expresan en las siguientes unidades (ng - EQT/m#[sup 3]), EQT: Equivalencia de toxicidad.     
+    p(data-aos="fade-down").mt-5 Las dioxinas y furanos se expresan en las siguientes unidades (ng - EQT/m#[sup 3]), EQT: Equivalencia de toxicidad.     
     p(data-aos="fade-down").mb-5 Si, por el contrario, corresponde a una fuente de combustión externa, se tomarán como referentes los estándares contenidos en el Capítulo III, Artículos 7 y 8, y hacer la comparación directa.
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 9.
+      h5 Tabla 11.
       span Estándares de emisión admisibles en equipos de combustión externa
     .tabla-a.color-acento-contenido.mt-2.mb-4
       table.mb-2
@@ -295,7 +273,7 @@
               td.text-center 350     
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 10.
+      h5 Tabla 12.
       span Estándares de emisión admisibles en equipos de combustión externa nuevos
     .tabla-a.color-acento-contenido.mt-2.mb-4
       table.mb-2

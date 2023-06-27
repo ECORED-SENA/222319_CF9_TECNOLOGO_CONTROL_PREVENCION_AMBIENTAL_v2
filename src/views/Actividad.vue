@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
+  BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
@@ -10,8 +10,8 @@
             img(data-aos="zoom-in")(src="@/assets/template/Seleccion_Multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo(data-aos="zoom-in-left")
-          h2 Colombia y la Agenda 2030
-        p(data-aos="fade-down").mb-4 Inferir del texto presentado la aplicación de los conceptos aprendidos en el componente de formación.
+          h2 Leyes de gases ideales
+        p(data-aos="fade-down").mb-4 Identificar las leyes fisoquímicas del aire.
         .tarjeta.actividad(data-aos="flip-down").p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

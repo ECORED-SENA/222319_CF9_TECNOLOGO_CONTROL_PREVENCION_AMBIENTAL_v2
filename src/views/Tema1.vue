@@ -8,11 +8,11 @@
         span 1
       h1 Bases conceptuales cálculo valores de emisión
 
-    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/3.png', alt='')
+    img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/3.jpg', alt='')
     .row.justify-content-center.align-items-center
-      .col-10.img-text(data-aos="flip-down")
+      .col-10.img-text.d-none.d-lg-block(data-aos="flip-down")
         p.p-3.mb-0 Las siguientes definiciones son importantes para reconocer las unidades de medida utilizadas en los cálculos de valores de emisión de la contaminación atmosférica, lea algunos de ellos a continuación: 
-      p.bg-p1.p-3.mb-0.d-block.d-lg-none Las siguientes definiciones son importantes para reconocer las unidades de medida utilizadas en los cálculos de valores de emisión de la contaminación atmosférica, lea algunos de ellos a continuación:  
+    p.bg-p1.p-3.mb-0.d-block.d-lg-none Las siguientes definiciones son importantes para reconocer las unidades de medida utilizadas en los cálculos de valores de emisión de la contaminación atmosférica, lea algunos de ellos a continuación:  
     Separador.mt-0.pt-0 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.1 Unidades de medida de la contaminación atmosférica 
@@ -38,7 +38,7 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Miligramos/metro cúbico")
         .row.justify-content-center.align-items-center
           .col-12
-            p.mb-0 #[b Miligramos/metro cúbico:] es empleada en las mediciones y normas para el monitoreo de las fuentes fijas o emisiones (mg/m3). Esta es la unidad de masa del Sistema Internacional que equivale a la milésima parte de un gramo.
+            p.mb-0 #[b Miligramos/metro cúbico:] es empleada en las mediciones y normas para el monitoreo de las fuentes fijas o emisiones (mg/m#[sup 3]). Esta es la unidad de masa del Sistema Internacional que equivale a la milésima parte de un gramo.
       .tarjeta.color-acento-botones--borde.p-4(titulo="El metro cúbico")
         .row.justify-content-center.align-items-center
           .col-12
@@ -48,7 +48,7 @@
           .col-12
             h5 Partes por millón (ppm):
             p Este término se abrevia ppm y es la unidad empleada usualmente para valorar la presencia de elementos en pequeñas cantidades (traza) en una mezcla. Generalmente suele referirse a porcentajes que dan información de dos tipos diferentes de unidad, estos son:
-            ul.lista-ul.mb-0(data-aos="fade-down")
+            ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
               li 
                 i.fas.fa-check.c1
                 | En peso en el caso de sólidos.
@@ -61,7 +61,7 @@
           .col-12
             h5 Partes por billón (ppb):
             p Partes por billón (abreviado como ppb) es otra unidad empleada usualmente para valorar la presencia de elementos en pequeñas cantidades (traza) en una mezcla. Generalmente, suele referirse a porcentajes, que son dos tipos de medidas de unidad, estas son:
-            ul.lista-ul.mb-0(data-aos="fade-down")
+            ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
               li 
                 i.fas.fa-check.c1
                 | El peso, en el caso de sólidos.
@@ -76,12 +76,12 @@
               .col-auto
                 .bg1.brad.p-4
                   img.img-a.img-t(src='@/assets/curso/temas/5.svg', alt='')                                        
-      .tarjeta.color-acento-botones--borde.p-4(titulo="ppb a microgramos/metro<br> cúbico (µg/m3)")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="ppb a microgramos/metro<br> cúbico (µg/m<sup>3</sup>)")
         .row.justify-content-center.align-items-center
           .col-12
-            h5 ppb a microgramos/metro cúbico (µg/m3):
+            h5 ppb a microgramos/metro cúbico (µg/m<sup>3</sup>):
 
-            p Para transformar N ppb de un gas a µg/m3 en determinadas condiciones de presión y temperatura, se realiza de la siguiente forma: 
+            p Para transformar N ppb de un gas a µg/m<sup>3</sup> en determinadas condiciones de presión y temperatura, se realiza de la siguiente forma: 
 
             .row.justify-content-center.align-items-center          
               .col-12
@@ -94,11 +94,11 @@
 
                   h5.mb-4 Ejemplo:
 
-                  h5.mb-4 Para transformar 5 ppb de SO2 (M = 64 uma) a µg/m3 en condiciones de 1 atmósfera de presión y 20ºC (273'15+20= 293'15 K) de temperatura, sería:
+                  h5.mb-4 Para transformar 5 ppb de SO2 (M = 64 uma) a µg/m<sup>3</sup> en condiciones de 1 atmósfera de presión y 20ºC (273'15+20= 293'15 K) de temperatura, sería:
 
                   h5.mb-4 1. Calculamos V(atm,Tª)= V(1, 293'15)= (R*Tª)/P= (0,082*293'15)/1= 24'04 litros (suponiendo comportamiento ideal de los gases).
 
-                  h5.mb-4 2. Hacemos el cambio de unidades con (a): 5 ppb de SO2*(64/24'04) = 13'31 µg/m3 
+                  h5.mb-4 2. Hacemos el cambio de unidades con (a): 5 ppb de SO2*(64/24'04) = 13'31 µg/m<sup>3</sup> 
 
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -111,7 +111,7 @@
 
         p(data-aos="fade-down") Así como cuando se cuenta, al medir lo que se está haciendo es comparar dos cantidades.  Por ejemplo, cuando se necesita saber cuál es la longitud de una ventana, se hace comparándola con la longitud de una regla o metro.
 
-        p(data-aos="fade-down") Para entenderlo de otro modo, #[b.c1 medir es seccionar determinada cantidad en partes iguales usando otra cantidad que sirva de referencia para compararla y contarla.]  Por ejemplo, suponga que se quiere saber la cantidad de agua con la que se llena una piscina. Para ello, no se tiene más que un balde o cubeta y una fuente de agua. En ese caso, lo que se haría sería empezar a llenar cubetas de agua y vaciar su cantidad dentro de la piscina varias veces. 
+        p(data-aos="fade-down") Para entenderlo de otro modo, #[b medir es seccionar determinada cantidad en partes iguales usando otra cantidad que sirva de referencia para compararla y contarla.]  Por ejemplo, suponga que se quiere saber la cantidad de agua con la que se llena una piscina. Para ello, no se tiene más que un balde o cubeta y una fuente de agua. En ese caso, lo que se haría sería empezar a llenar cubetas de agua y vaciar su cantidad dentro de la piscina varias veces. 
 
           .cajon.color-acento-contenido.mt-4(data-aos="flip-down").p-5.mb-0
             p.mb-0(data-aos="fade-down") Al contar el número de veces que se ha llenado y vaciado la cubeta dentro de la piscina, también se habrá hecho una medición de cuánta agua necesita la piscina para quedar llena. Teniendo en cuenta lo anterior, se puede revisar otro concepto importante, las unidades de medición, por lo que se le invita a seguir leyendo la información que a continuación se le presenta.
@@ -127,26 +127,60 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/8.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Sería muy complejo que todos midieran las cantidades, las longitudes, los pesos, etc., con lo que les pareciera, ya que cada cual tendría un parámetro distinto y no habría un acuerdo universal para establecer cálculos precisos sobre algo.  Es por ello que se crearon las unidades de medida, con el fin de tener un parámetro de referencia sobre las cantidades, magnitudes y demás, en todo el mundo. Por lo anterior, se hace necesario conocer este Sistema Internacional.        
+        p.mb-0 Sería muy complejo que todos midieran las cantidades, las longitudes, los pesos, etc., con lo que les pareciera, ya que cada cual tendría un parámetro distinto y no habría un acuerdo universal para establecer cálculos precisos sobre algo.  Es por ello que se crearon #[b las unidades de medida, con el fin de tener un parámetro de referencia sobre las cantidades, magnitudes y demás, en todo el mundo.] Por lo anterior, se hace necesario conocer este Sistema Internacional.        
 
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.4 El Sistema Internacional de Unidades y notación científica 
+      h2 1.4 Sistema Internacional de Unidades y notación científica
+    p(data-aos="fade-down").mb-5 El Sistema Internacional de Unidades se basa en dos tipos de magnitudes, las físicas, las cuales son:
 
-    img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/9.svg', alt='')
-
-    p(data-aos="fade-down").mb-5 El Sistema Internacional de Unidades se basa en dos tipos de magnitudes, las físicas, las cuales se muestran en la siguiente infografía interactiva didáctica. Para acceder, revise el siguiente objeto de aprendizaje:
+    .row.justify-content-center.mb-4.text-center           
+      .col-lg-3.col-md-6.my-3
+        .bgcard.p-3 
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/172.svg', alt='')
+        .bgcard1.p-3
+          p(data-aos="fade-down").mb-0 Longitud
+      .col-lg-3.col-md-6.my-3
+        .bgcard.p-3 
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/173.svg', alt='')
+        .bgcard1.p-3
+          p(data-aos="fade-down").mb-0 Tiempo 
+      .col-lg-3.col-md-6.my-3
+        .bgcard.p-3 
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/174.svg', alt='')
+        .bgcard1.p-3
+          p(data-aos="fade-down").mb-0 Masa
+      .col-lg-3.col-md-6.my-3
+        .bgcard.p-3 
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/175.svg', alt='')
+        .bgcard1.p-3
+          p(data-aos="fade-down").mb-0 Intensidad de corriente eléctrica
+      .col-lg-3.col-md-6.my-3
+        .bgcard.p-3 
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/176.svg', alt='')
+        .bgcard1.p-3
+          p(data-aos="fade-down").mb-0 Temperatura
+      .col-lg-3.col-md-6.my-3
+        .bgcard.p-3 
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/177.svg', alt='')
+        .bgcard1.p-3
+          p(data-aos="fade-down").mb-0 Cantidad de sustancia
+      .col-lg-3.col-md-6.my-3
+        .bgcard.p-3 
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/178.svg', alt='')
+        .bgcard1.p-3
+          p(data-aos="fade-down").mb-0 Intensidad luminosa
 
     .bg2.p-4.pb-0    
       .row.justify-content-center.align-items-end          
         .col-lg-5
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/11.png', alt='')
 
-        .col-lg-5.pb-4
+        .col-lg-5.mt-3.pb-4
           p(data-aos="fade-down") También existen las derivadas, que son las restantes, y que pueden ser expresadas con una combinación matemática de las anteriores. Para conocer las más frecuentes, revise el siguiente listado:
           .row.justify-content-center.align-items-start          
             .col-lg-4
-              ul.lista-ul.mb-0(data-aos="fade-down")
+              ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
                 li 
                   i.fas.fa-check.c1
                   | Superficie
@@ -175,7 +209,7 @@
                   i.fas.fa-check.c1
                   | Presión             
             .col-lg-6
-              ul.lista-ul.mb-0(data-aos="fade-down")
+              ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
                 li 
                   i.fas.fa-check.c1
                   | Trabajo
@@ -205,7 +239,7 @@
       .col-auto.my-3 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/12.svg') 
       .col.my-3
-        p(data-aos="fade-down").mb-0 También es importante estudiar el Sistema de Unidades, tales como: CGS, MKS, SI, por sus siglas en inglés. Un Sistema de Unidades es un conjunto consistente de unidades básicas de medida a partir del cual se derivan el resto. Existen varios sistemas de unidades, los cuales se describen en el siguiente objeto de aprendizaje. Para acceder al contenido haga clic sobre cada pestaña.  
+        p(data-aos="fade-down").mb-0 También es importante estudiar el Sistema de Unidades, tales como: CGS, MKS, SI, por sus siglas en inglés. Un Sistema de Unidades es un conjunto consistente de unidades básicas de medida a partir del cual se derivan el resto. Existen varios sistemas de unidades, los cuales se describen a continuación.
 
     .row.justify-content-center.align-items-end.mb-5           
       .col-lg-9 
@@ -266,44 +300,42 @@
                   table.mb-2
                       thead.tab-x
                         tr.th-1.text-center.tab-x
-                          th  
                           th Magnitud 
                           th Unidad
                           th Símbolo  
               
                       tbody.text-center
                         tr.bgt1
-                          td CGS 
                           td Aceleración  
                           td gal
                           td Gal
                         tr.bgt1
-                          td CGS 
+
                           td Fuerza 
                           td dina
                           td dyn
                         tr.bgt1
-                          td CGS 
+
                           td Energía 
                           td ergio
                           td erg
                         tr.bgt1
-                          td CGS 
+
                           td Potencia 
                           td ergio por segundo
                           td 
                         tr.bgt1
-                          td CGS 
+
                           td Presión 
                           td baria
                           td baria
                         tr.bgt1
-                          td CGS 
+
                           td Viscosidad dinámica 
                           td poise
                           td P
                         tr.bgt1
-                          td CGS 
+
                           td Viscosidad cinemática 
                           td stokes
                           td St
@@ -315,47 +347,41 @@
                   table.mb-2
                       thead.tab-x
                         tr.th-1.text-center.tab-x
-                          th  
-                          th Magnitud 
+                          th 
                           th Unidad
-                          th Símbolo  
+                          th Símbolo de unidad  
               
                       tbody.text-center
                         tr.bgt1
-                          td CGS 
-                          td Aceleración  
-                          td gal
-                          td Gal
+                          td.text-bold Longitud  
+                          td metro
+                          td m
                         tr.bgt1
-                          td CGS 
-                          td Fuerza 
-                          td dina
-                          td dyn
+                          td  
+                          td centímetro
+                          td cm
                         tr.bgt1
-                          td CGS 
-                          td Energía 
-                          td ergio
-                          td erg
+
+                          td.text-bold Fuerza 
+                          td Kilogramo fuerza = Kilopodio
+                          td kgf = kp
                         tr.bgt1
-                          td CGS 
-                          td Potencia 
-                          td ergio por segundo
-                          td 
+
+                          td.text-bold Tiempo 
+                          td segundo
+                          td s
                         tr.bgt1
-                          td CGS 
-                          td Presión 
-                          td baria
-                          td baria
+                          td.text-bold Temperatura 
+                          td grados Celsius
+                          td °C
                         tr.bgt1
-                          td CGS 
-                          td Viscosidad dinámica 
-                          td poise
-                          td P
+                          td.text-bold Cantidad de calor (energía)
+                          td caloría
+                          td cal
                         tr.bgt1
-                          td CGS 
-                          td Viscosidad cinemática 
-                          td stokes
-                          td St              
+                          td  
+                          td kilocaloría
+                          td kcal              
           .row.justify-content-center.align-items-center(titulo="Sistema Inglés") 
             .col-11
               p Este es aún utilizado en los países anglosajones, principalmente, Estados Unidos. Muchos de ellos lo están intentando cambiar por el Sistema Internacional de Medidas. 
@@ -365,7 +391,7 @@
                         tr.th-1.text-center.tab-x
                           th Magnitud 
                           th Unidad sistema inglés
-                          th Equivalencia con si  
+                          th Equivalencia con SI  
                       tbody.text-center.bgt1                          
                         tr
                           td(rowspan='4') Longitud
@@ -401,19 +427,19 @@
                           td Pie cúbico
                           td 1 pie#[sup 3]  = 28.32 L              
 
-      .col-lg-3 
+      .col-lg-3.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/13.png') 
 
-    p(data-aos="fade-down") En el desarrollo del contenido, se han venido conociendo algunos conceptos de unidades de medida que son usados a nivel internacional. Ahora, conozca cuáles son las unidades más usadas en el país. En Colombia, el Instituto Nacional de Metrología ha establecido que se debe utilizar el Sistema Internacional de Unidades.
+    p(data-aos="fade-down").mb-5 En el desarrollo del contenido, se han venido conociendo algunos conceptos de unidades de medida que son usados a nivel internacional. Ahora, conozca cuáles son las unidades más usadas en el país. En Colombia, el Instituto Nacional de Metrología ha establecido que se debe utilizar el Sistema Internacional de Unidades.
 
     .row.justify-content-center.align-items-center.bg4.p-4.mb-5           
       .col-lg-5
-        p(data-aos="fade-down").mb-0 #[b.c1 El Sistema Internacional de Unidades] (abreviado SI del francés: Le Système International d’Unités), también denominado #[b.c1 Sistema Internacional de Medidas], es el nombre que recibe el sistema de unidades que se usa en la mayoría de los países y es la forma actual del Sistema Métrico Decimal.
+        p(data-aos="fade-down").mb-0 #[b El Sistema Internacional de Unidades] (abreviado SI del francés: #[i Le Système International d’Unités]), también denominado #[b Sistema Internacional de Medidas], es el nombre que recibe el sistema de unidades que se usa en la mayoría de los países y es la forma actual del Sistema Métrico Decimal.
       .col-lg-2.p-0
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/15.svg') 
 
       .col-lg-5
-        p(data-aos="fade-down").mb-0 #[b.c1 El SI también es conocido como Sistema Métrico], especialmente en las naciones en las que aún no se ha implantado para su uso cotidiano. Este fue creado en 1960 por la #[b.c1 Conferencia General de Pesos y Medidas], que inicialmente definió seis unidades físicas básicas.  En 1971 se añadió la séptima unidad básica, el mol. 
+        p(data-aos="fade-down").mb-0 #[b El SI también es conocido como Sistema Métrico], especialmente en las naciones en las que aún no se ha implantado para su uso cotidiano. Este fue creado en 1960 por la #[b Conferencia General de Pesos y Medidas], que inicialmente definió seis unidades físicas básicas.  En 1971 se añadió la séptima unidad básica, el mol. 
 
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
@@ -439,25 +465,20 @@
         p(data-aos="fade-down") Cuando el cambio de unidades implica la transformación de varias unidades, se pueden utilizar varios factores de conversión, uno tras otro, de forma que el resultado final será la medida equivalente en las unidades que se busca. Por ejemplo, si se quiere pasar 8 metros a yardas, lo único que se tiene que hacer es multiplicar 8(0.914 yd) = 7.312 yd.   
 
     Separador
-    #t_1_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+    #t_1_6.titulo-segundo.color-acento-contenido.mb-3(data-aos="zoom-in-left")
       h2 1.6 Factor de conversión
 
-    .row.justify-content-center.align-items-end.mb-5 
-      .col-lg-6
+    .row.justify-content-center.align-items-end.mb-4 
+      .col-lg-6.my-3
         .cajon.color-acento-contenido(data-aos="flip-down").p-4.mb-0
           p.mb-0(data-aos="fade-down") El factor de conversión es una fracción en la que el numerador y el denominador son medidas iguales expresadas en unidades distintas, de tal manera que esta fracción vale la unidad. Método efectivo para cambio de unidades y resolución de ejercicios sencillos dejando de utilizar la regla de tres. 
-
-      .col-lg-6
+      .col-lg-6.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/19.png')
-
-    Separador
-    #t_1_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.7 Cifras significativas
 
     p(data-aos="fade-down").mb-5 Las cifras pueden ser: significativas o no significativas. 
 
-    .row.mb-5
-      .col-lg-6(data-aos="fade-left")
+    .row.mb-4
+      .col-lg-6.my-3(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/20.svg' alt='AvatarTop')
@@ -465,7 +486,7 @@
             .p-4
               h5.mb-0 Las significativas son aquellas que tienen significado real o aportan alguna información. 
 
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6.my-3(data-aos="fade-right")
         .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/20.svg' alt='AvatarTop')
@@ -477,8 +498,8 @@
       .col-lg-7
         p(data-aos="fade-down") Las cifras significativas de un número vienen determinadas por su error. Son aquellas que ocupan una posición igual o superior al orden o posición del error, según la página web Física I. Laboratorio de Física I (Arias, s. f.)     
         .cajon.color-acento-botones.mt-4(data-aos="flip-down").p-4.mb-4
-          p.mb-0(data-aos="fade-down") Por ejemplo, considere una medida de longitud que arroja un valor de 5432.4764 m, con un error de 0.8 m. #[b.c2 El error es, por tanto, del orden de décimas de metro. Es evidente que todas las cifras del número que ocupan una posición menor que las décimas no aportan ninguna información]. 
-        p(data-aos="fade-down") En efecto, #[b ¿Qué sentido tiene dar el número con precisión de diezmilésimas si afirmamos que el error es de casi 1 metro?] Las cifras significativas en el número serán, por tanto, las que ocupan la posición de las décimas, unidades, decenas, etc., pero no las centésimas, milésimas o diezmilésimas.
+          p.mb-0(data-aos="fade-down") Por ejemplo, considere una medida de longitud que arroja un valor de 5432.4764 m, con un error de 0.8 m. #[b El error es, por tanto, del orden de décimas de metro. Es evidente que todas las cifras del número que ocupan una posición menor que las décimas no aportan ninguna información]. 
+        p(data-aos="fade-down") En efecto, ¿qué sentido tiene dar el número con precisión de diezmilésimas si afirmamos que el error es de casi 1 metro? Las cifras significativas en el número serán, por tanto, las que ocupan la posición de las décimas, unidades, decenas, etc., pero no las centésimas, milésimas o diezmilésimas.
       .col-lg-5
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/21.png')                       
 
@@ -489,8 +510,8 @@
         p(data-aos="fade-down").mb-0 #[b Cuando se expresa un número, debe evitarse siempre la utilización de cifras no significativas], puesto que pueden suponer una fuente de confusión. Estos datos deben redondearse de forma que contengan sólo cifras significativas. #[b Se llama redondeo al proceso de eliminación de cifras no significativas de un número].
 
     Separador
-    #t_1_8.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.8 Notación científica
+    #t_1_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.7 Notación científica
 
     .bg7
       .row.justify-content-center.align-items-end.my-5.pt-3
@@ -499,21 +520,45 @@
         .col-lg-4.my-3 
           p(data-aos="fade-down") La notación científica (o notación índice estándar) es un modo conciso de representar un número utilizando potencias de base diez. Los números se escriben como un producto: a × 10k, (siendo a un número mayor o igual que 1 y menor que 10, y k un número entero). Esta notación se utiliza para poder expresar más fácilmente números muy grandes o demasiado pequeños.
 
-          p(data-aos="fade-down") La notación científica utiliza un sistema llamado #[b.c1 coma flotante, o de punto flotante] en países de habla inglesa y en algunos hispanohablantes, según se menciona en la página web Pedro probabilidad y estadística (algoestadistica, 2011), por lo cual se invita a revisar la siguiente tabla sobre el tema:
+          p(data-aos="fade-down") La notación científica utiliza un sistema llamado #[b coma flotante, o de punto flotante] en países de habla inglesa y en algunos hispanohablantes, según se menciona en la página web Pedro probabilidad y estadística (algoestadistica, 2011), por lo cual se invita a revisar la siguiente tabla sobre el tema:
         .col-lg-4.my-3
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1.
-            span Notación científica.   
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.svg')      
-    
+            span Notación científica. 
+          .tabla-a.color-acento-contenido.mt-2
+            table
+              tbody              
+                tr.bgw
+                  td.tablew.p-1 10#[sup 0 ]= 1
+                tr.bgw                               
+                  td.tablew.p-1 10#[sup 1 ]= 10
+                tr.bgw                              
+                  td.tablew.p-1 10#[sup 2 ]= 100
+                tr.bgw                              
+                  td.tablew.p-1 10#[sup 3 ]= 1000
+                tr.bgw                              
+                  td.tablew.p-1 10#[sup 4 ]= 10000
+                tr.bgw                              
+                  td.tablew.p-1 10#[sup 5 ]= 100000
+                tr.bgw                              
+                  td.tablew.p-1 10#[sup 6 ]= 1000000
+                tr.bgw                              
+                  td.tablew.p-1 10#[sup 9 ]= 1000000000
+                tr.bgw                              
+                  td.tablew.p-1 10#[sup 10] = 10000000000
+                tr.bgw                              
+                  td.tablew.p-1 10#[sup 20] = 100000000000000000000
+                tr.bgw                              
+                  td.tablew.p-1 10#[sup 30] = 1000000000000000000000000000000            
+
     Separador
-    #t_1_9.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.9 Conversión de unidades 
+    #t_1_8.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.8 Conversión de unidades 
 
     .row.justify-content-center.align-items-end.mb-4 
       .col-lg-6.my-3
         .cajon.color-acento-contenido(data-aos="flip-down").p-4.mb-4
-          p.mb-0(data-aos="fade-down") #[b.c2 Para sacar resultados relacionados con las emisiones resultantes de las fuentes contaminantes se emplean las relacionadas con las concentraciones físicas] . El portal ibero.mx define el término concentración… a la cantidad de soluto disuelta en una cantidad dada de disolvente o de solución. Entre mayor sea la cantidad de soluto disuelta, más concentrada estará la solución. 
+          p.mb-0(data-aos="fade-down") #[b Para sacar resultados relacionados con las emisiones resultantes de las fuentes contaminantes se emplean las relacionadas con las concentraciones físicas] . El portal ibero.mx define el término concentración… a la cantidad de soluto disuelta en una cantidad dada de disolvente o de solución. Entre mayor sea la cantidad de soluto disuelta, más concentrada estará la solución. 
         p(data-aos="fade-down") Por otro lado, la misma página menciona que…¨ #[b las unidades de concentración más empleadas son la molaridad, porcentajes, fracción molar, partes por millón, normalidad y molalidad]¨.          
       .col-lg-6.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/26.png')
@@ -527,13 +572,14 @@
           .titulo-sexto.color-acento-contenido
             h5 Tabla 2.
             span Unidades de concentración.   
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/29.svg')            
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/29.svg')
+          figcaption Nota. Tomado de https://ibero.mx/campus/publicaciones/quimanal/pdf/2soluciones.pdf            
 
 
       .row.justify-content-center.align-items-center.mb-5           
         .col-lg-10
           .cajon.color-acento-botones.mt-4(data-aos="flip-down").p-4.mb-4
-            p.mb-0(data-aos="fade-down") Es importante tener en cuenta que las unidades de concentración se aplican en las normas ambientales relacionadas con la matriz aire y están dirigidas a una relación masa/volumen expresada en unidades ug/m3 y mg/m3, ¬puesto que #[b.c2 la concentración de los contaminantes expuestos en el aire que se respira presenta minúsculas partículas que fácilmente llegan al sistema respiratorio del ser humano, generando enfermedades respiratorias que se reflejan en cifras impactantes en la mortalidad.] 
+            p.mb-0(data-aos="fade-down") Es importante tener en cuenta que las unidades de concentración se aplican en las normas ambientales relacionadas con la matriz aire y están dirigidas a una relación masa/volumen expresada en unidades ug/m#[sup 3] y mg/m#[sup 3], puesto que #[b la concentración de los contaminantes expuestos en el aire que se respira presenta minúsculas partículas que fácilmente llegan al sistema respiratorio del ser humano, generando enfermedades respiratorias que se reflejan en cifras impactantes en la mortalidad.] 
 
       .row.justify-content-center.align-items-end.mb-4 
         .col-lg-6.my-3
@@ -543,7 +589,6 @@
         .col-lg-6.my-3
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/30.png')
 
-      p(data-aos="fade-down").mb-5 Como parte de los conceptos que debe aprender, se invita a continuar revisando el siguiente tema.
 
     .row.justify-content-center.align-items-center        
       .col-lg-10.up
@@ -554,18 +599,18 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.mb-0 Para profundizar en el tema, se invita a revisar la sección de materiales complementarios, donde encontrará el video: Puntaje Nacional Chile (4 abril 2013), denominado “Unidades de concentración” y otros objetos de aprendizaje que son de sumo interés para su aprendizaje.
+                  h5.mb-0 Para profundizar en el tema, se invita a revisar el video “Unidades de concentración”, que se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.c6.fas.fa-file-download     
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=NGUytYmKAro" target="_blank")
+                    span Ver video
+                    i.c6.fab.fa-youtube
 
 
     Separador
-    #t_1_10.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.10 Ley de gases ideales 
+    #t_1_9.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.9 Ley de gases ideales 
 
-    p(data-aos="fade-down").mb-5 Para comprender cómo se comportan los contaminantes que se mezclan en el aire atmosférico, debe entender qué son los gases y cuáles son sus principales características. Para contextualizar el tema, se invita a ver el siguiente contenido audiovisual sobre cómo el área caliente produce efectos en los objetos. 
+    p(data-aos="fade-down").mb-5 Para comprender cómo se comportan los contaminantes que se mezclan en el aire atmosférico, debe entender qué son los gases y cuáles son sus principales características. 
 
     .row.justify-content-center.align-items-center.mb-5        
       .col-lg-10.up
@@ -576,25 +621,25 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.mb-0 Para profundizar en el tema, se le invita a revisar el video que se encuentra en la sección de materiales de apoyo denominado ¨Experimento densidad del aire¨.
+                  h5.mb-0 Para profundizar en el tema, se invita a revisar el video “Experimento densidad del aire”, que se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.c6.fas.fa-file-download 
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=VjGghz1JBVE" target="_blank")
+                    span Ver video
+                    i.c6.fab.fa-youtube
 
     p(data-aos="fade-down") Por otra parte, las más importantes leyes físicas que relaciona la historia sobre el aire atmosférico fueron investigadas por los más importantes científicos que estudiaron las teorías que rigen las principales leyes fisicoquímicas del aire.
 
-    p(data-aos="fade-down").mb-5 Para explicar sus componentes, se debe dar un viaje al pasado para conocer los estudios de los principales protagonistas, los cuales se mencionan en el siguiente objeto de aprendizaje:
+    p(data-aos="fade-down").mb-5 Para explicar sus componentes, se debe dar un viaje al pasado para conocer los estudios de los principales protagonistas, los cuales se mencionan a continuación:
 
     .row.justify-content-center.align-items-center.mb-4 
-      .col-lg-3.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/32.png') 
-      .col-lg-3.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/33.png') 
-      .col-lg-3.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.png')
-      .col-lg-3.my-3
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.png') 
+      .col-lg-3.col-md-6.my-3
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/32.png' alt='Robert Boyle (1627-1691) Filósofo natural, químico, físico e inventor irlandés.') 
+      .col-lg-3.col-md-6.my-3
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/33.png' alt='Jacques Charles (1746-1823) Físico y químico francés.') 
+      .col-lg-3.col-md-6.my-3
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.png' alt='Joseph Louis Gay-Lussac (1778-1850) Físico y químico francés')
+      .col-lg-3.col-md-6.my-3
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.png' alt='Amedeo Avogadro (1776-1856) Químico y físico italiano.') 
 
     p(data-aos="fade-down").mb-5 Para profundizar en la investigación de cada uno de estos científicos y conocer cómo afectaron las ciencias posteriormente, se invita a revisar la siguiente información. 
 
@@ -628,20 +673,6 @@
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/40.svg')                    
       p(data-aos="fade-down") Lo anterior se muestra en el documento del Departamento de Fisiología de la Facultad de Medicina de la Universidad Nacional Autónoma de México (2019), que habla sobre las Leyes generales de los gases: su aplicación en Fisiología. 
 
-      .row.justify-content-center.align-items-center.my-5        
-        .col-lg-10.up
-          .tarjeta.color-primario.p-3
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/temas/38.svg")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h5.mb-0 Para profundizar en el tema, puede revisar las referencias o buscar por su cuenta en una página de Internet con contenido de alta calidad educativa el tema.
-                  .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                      span Descargar
-                      i.c6.fas.fa-file-download 
 
     .row.justify-content-start.mb-5.pt-5          
       .col-auto.bg9.p-3(data-aos="flip-down")
@@ -664,13 +695,13 @@
 
         .color-fondo-text.bg-color.mb-4(data-aos="fade-down")
           .color-fondo-text__texto.p-2 
-            p texto #[b.c2 El volumen (V) de un gas es directamente proporcional a su temperatura absoluta (T), considerando una presión constante]. A nivel pulmonar se encuentra una mayor temperatura que en el medio ambiente, por lo que los gases inhalados en el aire se expandirán, aumentando así el volumen pulmonar. 
+            p #[b El volumen (V) de un gas es directamente proporcional a su temperatura absoluta (T), considerando una presión constante]. A nivel pulmonar se encuentra una mayor temperatura que en el medio ambiente, por lo que los gases inhalados en el aire se expandirán, aumentando así el volumen pulmonar. 
         .bgn.p-4
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/43.svg')                 
 
     p(data-aos="fade-down") Esta ley no afecta la ventilación tanto como lo hace la Ley de Boyle, pero tiene un efecto. 
 
-    p(data-aos="fade-down") Considere un ejemplo que se encuentra en el documento de la UNAM sobre: Leyes generales de los gases: ¨ …cómo se respira en un día frío (-10º C) y la diferencia en un día cálido (37º C). En el caso del día frío el aire se expande mientras pasa por el sistema respiratorio y se calienta hasta 37º C. Ahora bien, calcule con la fórmula de arriba. 
+    p(data-aos="fade-down") Considere un ejemplo que se encuentra en el documento de la UNAM sobre: Leyes generales de los gases: ¨ #[i …cómo se respira en un día frío (-10º C) y la diferencia en un día cálido (37º C). En el caso del día frío el aire se expande mientras pasa por el sistema respiratorio y se calienta hasta 37º C. Ahora bien, calcule con la fórmula de arriba.] 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.my-3(data-aos="fade-left")
@@ -680,7 +711,7 @@
               img.img-a.img-t.rot1(src='@/assets/curso/temas/45.png') 
             .col.my-3.text-white
               h5(data-aos="fade-down").mb-3 REFLEXIÓN
-              p(data-aos="fade-down").mb-0 ¿Qué volumen de aire tiene que tomar para llenar sus pulmones con 500 ml en el caso de un día frío o un día cálido? ¨              
+              p(data-aos="fade-down").mb-0 ¿Qué volumen de aire tiene que tomar para llenar sus pulmones con 500 m en el caso de un día frío o un día cálido?            
 
       .col-lg-6.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/44.png')  
@@ -709,20 +740,6 @@
               p.mb-0.j(data-aos="fade-down") A un volumen constante, la presión de un gas (P) es directamente proporcional a su temperatura (T). Como ya se mencionó, la temperatura pulmonar provocará que los gases inhalados tengan mayor presión.                             
             .col-lg-4 
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/48.svg')  
-      .row.justify-content-center.align-items-center.mb-5        
-        .col-lg-10.up
-          .tarjeta.color-primario.p-3
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
-                img(src="@/assets/curso/temas/38.svg")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h5.mb-0 Si está interesado en profundizar en el tema, se invita a revisar la sección de contenidos complementarios, en la cual se encuentra el video con el título: leyes generales de los gases, su aplicación en fisiología, un documento de la UNAM (2019).
-                  .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                      span Descargar
-                      i.c6.fas.fa-file-download 
 
     .row.justify-content-start.pt-5          
       .col-auto.bg9.p-3(data-aos="flip-down")
@@ -736,22 +753,12 @@
 
         p(data-aos="fade-down") Avogadro tuvo la precaución de especificar que las partículas no tenían por qué ser átomos individuales, sino que podían ser combinaciones de átomos (lo que hoy llamamos moléculas). Con esta consideración, pudo explicar con facilidad la ley de la combinación de volúmenes que había sido anunciada por Gay-Lussac y, basándose en ella, dedujo que el oxígeno era 16 veces más pesado que el hidrógeno y no ocho, como defendía Dalton en aquella época.
 
-        p(data-aos="fade-down") Por lo anterior, el científico enunció la siguiente hipótesis: iguales volúmenes de gases distintos, contienen el mismo número de moléculas, si ambos se encuentran a igual temperatura y presión.
+        p(data-aos="fade-down") Por lo anterior, el científico enunció la siguiente hipótesis: #[b iguales volúmenes de gases distintos, contienen el mismo número de moléculas, si ambos se encuentran a igual temperatura y presión.]
 
-        p(data-aos="fade-down") Ese número es equivalente a 6,022 * 10, el cual es constante, según se publicó en 1811.  Sin embargo, la Ley de Avogadro permite explicar por qué los gases se combinan en proporciones simples.            
+        p(data-aos="fade-down") Ese número es equivalente a #[b 6,022 * 10#[sup 23]], el cual es constante, según se publicó en 1811.  Sin embargo, la Ley de Avogadro permite explicar por qué los gases se combinan en proporciones simples.            
       .col-lg-6.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/49.png') 
 
-    .row.justify-content-center.align-items-center.mb-5        
-      .col-lg-10.up
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/50.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 Para profundizar en el tema, puede ver en referencias la página web de Educaplus sobre la Biografía de Avogadro (Educaplus.org, s. f.-a).
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.my-3
@@ -763,7 +770,7 @@
           
       .col-lg-4.my-3
         p(data-aos="fade-down") Lo cual tiene como consecuencia que:      
-        ul.lista-ul.mb-0(data-aos="fade-down")
+        ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
           li 
             i.fas.fa-check.c1
             | Si aumenta la cantidad de gas, aumenta el volumen.
@@ -771,43 +778,21 @@
             i.fas.fa-check.c1
             | Si disminuye la cantidad de gas, disminuye el volumen. 
 
-    .row.justify-content-center.align-items-center.mb-5        
-      .col-lg-10.up
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/50.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 Para aprender más sobre las Leyes de los gases, puede consultar la página web colegios (Colegio Cristiano Jireth, s. f.) que se encuentra en las referencias del documento o hacer búsquedas por su cuenta en páginas de alta calidad académica en Internet.                            
-              
-    p(data-aos="fade-down").mb-5.text-center A continuación, se muestra la figura sobre la Ley de Avogadro.  
-    img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/52.png') 
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          h5 Figura 1.
+          span Ley de Avogadro 
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/52.svg') 
 
     .row.justify-content-center.align-items-center.bg12.p-4.mb-5           
-      .col-auto
+      .col-auto.my-3.up
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/54.png') 
-      .col-lg-5
+      .col-lg-5.my-3.up
         p(data-aos="fade-down").mb-0 Por la relación de las leyes anteriores, se podría concluir que la Ley de los Gases Ideales se puede incluir en una ecuación, la cual se expresa de la siguiente manera:      
-      .col-lg-4
+      .col-lg-4.my-3.up
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/55.svg') 
-
-    .row.justify-content-center.align-items-center.mb-5        
-      .col-lg-10.up
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/31.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 Para profundizar en el tema, se invita a revisar la sección de materiales complementarios, donde encontrará el video: Puntaje Nacional Chile (4 abril 2013), denominado “Unidades de concentración” y otros objetos de aprendizaje que son de sumo interés para su aprendizaje.
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.c6.fas.fa-file-download   
-
+    .pt-5
     .bg13
       .row.justify-content-center.align-items-start.mb-5           
         .col-lg-4
@@ -816,7 +801,8 @@
           .titulo-sexto.color-acento-contenido
             h5 Tabla 3.
             span Propiedades constantes.   
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/57.svg')        
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/57.svg')
+          figcaption Nota. Tomada de Sánchez (2018).         
 
       .row.justify-content-center.align-items-start.mb-5           
         .col-lg-4
@@ -834,7 +820,7 @@
           h5 Tabla 4.
           span Comportamiento ideal de los gases.     
         .tabla-a.color-acento-contenido.mt-2
-          table.mb-2
+          table
               thead.tab-x
                 tr.th-1.text-center.tab-x
                   th Valor de R  
@@ -856,6 +842,7 @@
                   td.text-center 1,987
                   td.text-center 
                     img.img-a.img-t(src='@/assets/curso/temas/61.svg') 
+        figcaption Nota. Tomada de Sánchez (2018).         
 
 
     .row.justify-content-center.align-items-center.bg14.p-4.pb-0.mb-5           
@@ -863,7 +850,7 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/62.png') 
       .col-lg-8.mt-4
         p(data-aos="fade-down") Como se ha observado, son cuatro (4) las propiedades que definen el estado o las condiciones en las que se encuentra una sustancia en estado gaseoso:
-        ul.lista-ul(data-aos="fade-down")
+        ul.lista-ul.fa-ul(data-aos="fade-down")
           li 
             i.fas.fa-check.c1
             | La cantidad de sustancia o número de moles, n.
@@ -876,26 +863,27 @@
           li 
             i.fas.fa-check.c1
             | El volumen que ocupa, V.                    
-        p(data-aos="fade-down").mb-0 Como se ha observado, son cuatro (4) las propiedades que definen el estado o las condiciones en las que se encuentra una sustancia en estado gaseoso: 
+        p(data-aos="fade-down").mb-0 Estas propiedades pueden variar todas simultáneamente o se pueden mantener constantes una o dos de ellas, a fin de cambiar las otras. 
 
     p(data-aos="fade-down") A continuación, se tocará el tema "#[b Densidad y masa molar de un gas ideal]":
 
-    .row.justify-content-center.align-items-center.mb-5           
+    .row.justify-content-center.align-items-end.mb-4           
       .col-lg-6.my-3
         p(data-aos="fade-down") La ecuación de los gases ideales permite determinar la densidad, d, y la masa molar, M, de un determinado gas ideal. Según las definiciones de densidad, d, el número de moles, n, y de la ecuación del gas ideal, se tiene la siguiente información (revise la tabla 5): 
-        .row.justify-content-center.align-items-center.mb-5           
+        .row.justify-content-center.align-items-center          
           .col-lg-8   
             .titulo-sexto.color-acento-contenido
               h5 Tabla 5.
               span Ecuación de gases ideales.    
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/65.svg') 
-        p(data-aos="fade-down") Para continuar aprendiendo sobre el tema, se le invita a revisar el siguiente punto: ¨Diagrama de entradas y salidas de la contaminación atmosférica¨.               
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/65.svg')
+            figcaption Nota. Tomada de Sánchez (2018).  
+           
       .col-lg-6.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/64.png') 
 
     Separador
-    #t_1_11.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.11 Diagrama de entradas y salidas de la contaminación atmosférica
+    #t_1_10.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.10 Diagrama de entradas y salidas de la contaminación atmosférica
     p(data-aos="fade-down").mb-5 Para valorar la estimación de los contaminantes que emite una fuente, es importante reconocer el proceso y/o actividad que produce la contaminación. Según el Protocolo para el Control y Vigilancia de la Contaminación Atmosférica Generada por Fuentes Fijas, se definen una serie de pasos importantes para establecer tanto las entradas como las salidas provenientes de un proceso. Para lo anterior, se le invita a revisar el siguiente objeto de aprendizaje:
 
     .tarjeta.tarjeta-verde.p-4.mb-5(data-aos="fade-left") 
@@ -920,7 +908,7 @@
             h5 Información del proceso 
             p a información sobre los procesos que generan emisiones debe incluir un diagrama de flujo de cada uno de los procesos que están siendo analizados, así como su descripción. Se deben incluir los equipos de control de emisiones al aire que se utilizan en el proceso. 
 
-            p Adicionalmente, se deben incluir variables del proceso, como: materias primas e insumos utilizados, la máxima tasa de operación de los equipos, las tasas máximas, normal y promedio de operación de los equipos, la caracterización y tasa de alimentación del combustible que utiliza y las horas de operación diarias, semanales y mensuales. En caso tal que el proceso se realice por lotes o cochadas (tipo batch), es necesario suministrar información sobre la duración y el número de lotes por día, por semana o por mes.
+            p Adicionalmente, se deben incluir variables del proceso, como: materias primas e insumos utilizados, la máxima tasa de operación de los equipos, las tasas máximas, normal y promedio de operación de los equipos, la caracterización y tasa de alimentación del combustible que utiliza y las horas de operación diarias, semanales y mensuales. En caso tal que el proceso se realice por lotes o cochadas (tipo #[i batch]), es necesario suministrar información sobre la duración y el número de lotes por día, por semana o por mes.
           .col-lg-7.my-3
             img.img-a.img-t(src='@/assets/curso/temas/69.svg', alt='') 
         .row.justify-content-center.mt-3
@@ -935,45 +923,27 @@
 
     p(data-aos="fade-down").mb-5 Teniendo en cuenta los pasos anteriormente expuestos, es importante construir un diagrama de procesos en la organización, en el que se evidencien las entradas y las salidas que resultan de un proceso productivo, teniendo en cuenta que la Guía Práctica para la Gestión Ambiental Empresarial (2008) resalta que es vital conocer los conceptos asociados, los cuales se mencionan a continuación:
 
-    .titulo-sexto.color-acento-contenido
-      h5 Figura 11.
-      span Procesos Organizacionales.   
 
-    .bg15.p-5
-      ImagenInfografica.color-acento-contenido
-        template(v-slot:imagen)
-          figure
-            img.img-a.img-t(src='@/assets/curso/temas/71.svg', alt='Texto que describa la imagen')
+    .bg45
+      img.img-a.img-t.mb-4(src='@/assets/curso/temas/71_1.svg', alt='') 
 
-        .tarjeta.color-acento-botones.p-3(x="28.5%" y="100%" numero="+")
-          .h5.mb-2 Entrada
-          p Son los insumos, las materias primas y los recursos que al someterse a procesos de transformación darán como resultado un producto, un servicio o una entrada para otra actividad.       
-        .tarjeta.color-secundario.p-3(x="46.5%" y="0%" numero="+")
-          .h5.mb-2 Proceso 
-          p Conjunto de actividades que toman una entrada, la transforman y generan como resultado un producto o servicio.  
-        .tarjeta.color-primario1.p-3(x="70.2%" y="100%" numero="+")
-          .h5.mb-2 Salida
-          p Son los productos, servicios, residuos, emisiones o subproductos que resultan de cada actividad en un proceso productivo.    
+      .row.justify-content-center.mb-4           
+        .col-lg-4.my-3
+          .bg42.brad.p-4.h-100
+            p.mb-0 #[b Entrada:] son los insumos, las materias primas y los recursos que al someterse a procesos de transformación darán como resultado un producto, un servicio o una entrada para otra actividad.       
+        .col-lg-4.my-3
+          .bg43.brad.p-4.h-100
+            p.mb-0 #[b Proceso:] conjunto de actividades que toman una entrada, la transforman y generan como resultado un producto o servicio.  
+        .col-lg-4.my-3
+          .bg44.brad.p-4.h-100
+            p.mb-0 #[b Salida:] son los productos, servicios, residuos, emisiones o subproductos que resultan de cada actividad en un proceso productivo.    
 
     p(data-aos="fade-down").my-5 El diagrama de procesos es la representación de cada una de las etapas del proceso productivo. Se   construye a través de bloques secuenciales que relacionan las actividades, las entradas y las salidas. Como ejemplo, se puede observar el diagrama de entradas y salidas de un proceso productivo relacionado con la industria metalmecánica:
 
-    img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/72.svg')
-
+    img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/72.svg')
+    figcaption Nota. Tomada de Guía práctica para la gestión ambiental empresarial (2008).
     .row.justify-content-center.align-items-center        
       .col-lg-10.up
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/31.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 Para contextualizar el tema, puede consultar el siguiente recurso audiovisual que se encuentra en la sección de contenidos complementarios en formato de video, denominado Evaluación de impacto ambiental - diagramas de proceso. 
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.c6.fas.fa-file-download  
-
         p(data-aos="fade-down").mt-5 En conclusión, se puede observar que todo proceso productivo puede generar emisiones a la atmósfera, por lo cual es necesario hacer un análisis completo y detallado de estas, con el fin de reducir el impacto en el medio ambiente y en la calidad de vida del ser humano. A continuación, se invita a continuar su aprendizaje sobre el tema.                            
 
 </template>

@@ -66,29 +66,24 @@ export default {
           },
           {
             numero: '1.7',
-            titulo: 'Cifras significativas',
+            titulo: 'Notación científica',
             hash: 't_1_7',
           },
           {
             numero: '1.8',
-            titulo: 'Notación científica',
+            titulo: 'Conversión de unidades',
             hash: 't_1_8',
           },
           {
             numero: '1.9',
-            titulo: 'Conversión de unidades',
+            titulo: 'Ley de gases ideales',
             hash: 't_1_9',
           },
           {
             numero: '1.10',
-            titulo: 'Ley de gases ideales',
-            hash: 't_1_10',
-          },
-          {
-            numero: '1.11',
             titulo:
               'Diagramas de entrada y salida de la contaminación atmosférica',
-            hash: 't_1_11',
+            hash: 't_1_10',
           },
         ],
       },
@@ -140,38 +135,37 @@ export default {
         nombreRuta: 'tema3',
 
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Combustión',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Leyes de las reacciones químicas',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Ecuaciones químicas',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Procesos de combustión',
             hash: 't_3_3',
           },
           {
             numero: '3.4',
-            titulo: 'Clasificación de tejidos',
+            titulo: 'Combustibles',
             hash: 't_3_4',
           },
           {
             numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
+            titulo: 'Balanceo de ecuaciones químicas',
             hash: 't_3_5',
           },
           {
             numero: '3.6',
-            titulo: 'Procesos textiles',
+            titulo: 'Estequiometría',
             hash: 't_3_6',
           },
         ],
@@ -204,13 +198,12 @@ export default {
         subMenu: [
           {
             numero: '5.1',
-            titulo:
-              'Correcciones de resultados en inmisión o calidad del aire.',
+            titulo: 'Correcciones de resultados en inmisión o calidad del aire',
             hash: 't_5_1',
           },
           {
             numero: '5.2',
-            titulo: 'Correcciones de resultados de emisión en fuentes fijas.',
+            titulo: 'Correcciones de resultados de emisión en fuentes fijas',
             hash: 't_5_2',
           },
         ],
@@ -245,6 +238,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/prueba.pdf',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -260,56 +258,56 @@ export default {
     {
       tema: 'Conversión de unidades',
       referencia:
-        'Puntaje Nacional Chile. (Abril 4, 2013). Unidades de concentración [Video]. YouTube. ',
+        'Puntaje Nacional Chile. (Abril 4, 2013). <i>Unidades de concentración</i> [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=NGUytYmKAro  ',
+      link: 'https://www.youtube.com/watch?v=NGUytYmKAro',
     },
     {
       tema: 'Ley de los gases',
       referencia:
-        'Education Journal. (Marzo 10, 2017). Experimento densidad del aire [Video]. YouTube.',
+        'Gallegos, C. (2015). <i>Experimento densidad del aire</i> [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=VjGghz1JBVE  ',
+      link: 'https://www.youtube.com/watch?v=TipL5b7dqig',
     },
     {
       tema: 'Ley de los gases',
       referencia:
-        'Danstein. (Octubre 15, 2019). Leyes de los gases Parte 3-Ley general de los gases y ejemplos prácticos [Video]. YouTube.',
+        'Danstein. (Octubre 15, 2019). <i>Leyes de los gases Parte 3-Ley general de los gases y ejemplos prácticos</i> [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=b-Dzm6hGPJ8   ',
+      link: 'https://www.youtube.com/watch?v=b-Dzm6hGPJ8',
     },
     {
       tema: 'Diagramas de entrada y salida de la contaminación atmosférica',
       referencia:
-        'Ochoa, W. (Marzo 22, 2020). Evaluación de impacto ambiental - Diagramas de proceso [Video]. YouTube.',
+        'Ochoa, W. (Marzo 22, 2020). <i>Evaluación de impacto ambiental - Diagramas de proceso</i> [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=yqi372crXWY ',
+      link: 'https://www.youtube.com/watch?v=yqi372crXWY',
     },
     {
       tema: 'Cálculo de emisiones',
       referencia:
-        'Corantioquiaoficial. (Abril 30, 2014). Seguimiento y Control a Fuentes Fijas [Video]. YouTube.',
+        'Corantioquiaoficial. (Abril 30, 2014). <i>Seguimiento y Control a Fuentes Fijas</i> [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=fNBy6k4EKHo ',
+      link: 'https://www.youtube.com/watch?v=fNBy6k4EKHo',
     },
     {
       tema: 'Instalaciones para equipos de toma de muestra y análisis',
       referencia:
-        'Fluoreciencia Didáctica, lenguaje y cultura. (Marzo 1, 2016) Atmósfera-Muestreo Isocinético en chimenea [Video]. YouTube.',
+        'Fluoreciencia Didáctica, lenguaje y cultura. (Marzo 1, 2016) <i>Atmósfera-Muestreo Isocinético en chimenea</i> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=rrXgBvkuJ4w&t=10s ',
     },
     {
       tema: '¿Qué es un factor de emisión?',
       referencia:
-        'Tecnológico de Monterrey | Innovación Educativa. (Septiembre 27, 2017). ¿Qué es un factor de emisión? [Video]. YouTube.',
+        'Tecnológico de Monterrey | Innovación Educativa. (Septiembre 27, 2017). <i>¿Qué es un factor de emisión?</i> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=A0DKIGHVUsE ',
     },
     {
       tema: 'Factores de Emisión EPA AP-42      ',
       referencia:
-        'Páez, J. (Agosto 3, 2013). Factores de Emisión EPA AP-42 [Video]. YouTube.',
+        'Páez, J. (Agosto 3, 2013). <i>Factores de Emisión EPA AP-42 </i>[Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=kThVlN83V9g ',
     },
@@ -379,104 +377,107 @@ export default {
   referencias: [
     {
       referencia:
-        'Agencia de Protección Ambiental de Estados Unidos [EPA]. (2020). Factores de emisiones atmosféricas y cuantificación. ',
+        'Agencia de Protección Ambiental de Estados Unidos [EPA]. (2020). <i>Factores de emisiones atmosféricas y cuantificación</i>. ',
       link:
         'https://www.epa.gov/air-emissions-factors-and-quantification/basic-information-air-emissions-factors-and-quantification#About%20Emissions%20Factors  ',
     },
     {
       referencia:
-        'algoestadistica. (2011). Notación científica. Probabilidad y Estadística. ',
+        'algoestadistica. (2011). <i>Notación científica</i>. Probabilidad y Estadística. ',
       link:
         'http://pedroprobabilidadyestadistica.blogspot.com/2011/04/notacion-cientifica.html',
     },
     {
-      referencia: 'Ambiente Bogotá. (2020). Red de calidad del aire.  ',
+      referencia: 'Ambiente Bogotá. (2020). <i>Red de calidad del aire</i>.  ',
       link:
         'http://ambientebogota.gov.co/image/image_gallery?uuid=b459b6d1-003d-4333-9484-9d1efbb526e2&groupId=10157&t=1410817522951  ',
     },
     {
       referencia:
-        'Arias, M. (s. f.). Cifras Significativas - Física I. Laboratorio de Física I (FI-LUZ). Física I. Laboratorio de Física I (FI-LUZ). ',
+        'Arias, M. (s. f.). <i>Cifras Significativas - Física I. Laboratorio de Física I (FI-LUZ)</i>. Física I. Laboratorio de Física I (FI-LUZ). ',
       link:
         'https://sites.google.com/site/laboratoriodefisicaifiluz/practicas-de-laboratorio/practica-no-1/cifras-significativas',
     },
     {
       referencia:
-        'Brown, T., LeMay, H., Bursten, B. y Burdge, J. (2004). Química. La ciencia central. Pearson Educación. ',
+        'Brown, T., LeMay, H., Bursten, B. y Burdge, J. (2004). <i>Química. La ciencia central</i>. Pearson Educación. ',
       link:
         'https://academia.utp.edu.co/quimica2/files/2018/09/quc3admica-la-ciencia-central-brown.pdf ',
     },
     {
-      referencia: 'Colegio Cristiano Jireth. (s. f.). Leyes de los gases.',
+      referencia:
+        'Colegio Cristiano Jireth. (s. f.). <i>Leyes de los gases</i>.',
       link: 'https://www.webcolegios.com/file/bb95fd.pdf',
     },
     {
       referencia:
-        'Comisión Nacional del Medio Ambiente Chile. (2009). Guía metodológica para la estimación de emisiones atmosféricas de fuentes fijas y móviles en el registro de emisiones y transferencia de contaminantes. Gobierno de Chile.',
+        'Comisión Nacional del Medio Ambiente Chile. (2009). <i>Guía metodológica para la estimación de emisiones atmosféricas de fuentes fijas y móviles en el registro de emisiones y transferencia de contaminantes<i>. Gobierno de Chile.',
       link: 'http://www.declaracionemision.cl/docs/GUIA_CONAMA.pdf   ',
     },
     {
-      referencia: 'Educaplus.org. (s. f.-a). Amedeo Avogadro (1776–1856). ',
+      referencia:
+        'Educaplus.org. (s. f.-a). <i>Amedeo Avogadro (1776–1856)</i>. ',
       link: 'http://www.educaplus.org/gases/bio_avogadro.html',
     },
     {
-      referencia: 'Educaplus.org. (s. f.-b). Jacques Charles (1746–1823)',
+      referencia:
+        'Educaplus.org. (s. f.-b). <i>Jacques Charles (1746–1823)</i>',
       link: ' http://www.educaplus.org/gases/bio_charles.html',
     },
     {
       referencia:
-        'Educaplus.org. (s. f.-c). Joseph Louis Gay-Lussac (1778–1850). ',
+        'Educaplus.org. (s. f.-c). <i>Joseph Louis Gay-Lussac (1778–1850).</i> ',
       link: 'http://www.educaplus.org/gases/bio_gay.html',
     },
     {
-      referencia: 'Educaplus.org. (s. f.-d). Robert Boyle (1627–1691).',
+      referencia: 'Educaplus.org. (s. f.-d). <i>Robert Boyle (1627–1691).</i>',
       link: ' http://www.educaplus.org/gases/bio_boyle.html',
     },
     {
       referencia:
-        'El Mundo de la Ciencia. (s. f.). Balanceo de reacciones REDOX - El Mundo de la Ciencia. ',
+        'El Mundo de la Ciencia. (s. f.). <i>Balanceo de reacciones REDOX - El Mundo de la Ciencia</i>. ',
       link:
         'https://sites.google.com/site/elmundodelacienciaensm/reacciones-redox',
     },
     {
       referencia:
-        'El Tiempo. (2019, Junio 4). El 92 % de los habitantes del planeta no respiran un aire limpio.',
+        'El Tiempo. (2019, Junio 4). <i>El 92 % de los habitantes del planeta no respiran un aire limpio</i>.',
       link:
         'https://www.eltiempo.com/vida/medio-ambiente/datos-sobre-la-contaminacion-del-aire-en-el-mundo-370632',
     },
     {
       referencia:
-        'Gobierno de Estados Unidos. (s. f.). Leyes y regulaciones federales. USAGov en Español. ',
+        'Gobierno de Estados Unidos. (s. f.). <i>Leyes y regulaciones federales</i>. USAGov en Español. ',
       link: 'https://www.usa.gov/espanol/leyes-regulaciones-federales',
     },
     {
       referencia:
-        'Guía práctica para la gestión ambiental empresarial. (2008). ',
+        '<i>Guía práctica para la gestión ambiental empresarial</i>. (2008). ',
       link:
         'https://docplayer.es/11257606-Guia-practica-para-la-gestion-ambiental-empresarial-2008-guia-practica-para-la-gestion-ambiental-empresarial.html',
     },
     {
-      referencia: 'IDEAM. (s. f.-a). Calidad del aire. ',
+      referencia: 'IDEAM. (s. f.-a). <i>Calidad del aire</i>. ',
       link:
         'http://www.ideam.gov.co/web/contaminacion-y-calidad-ambiental/calidad-del-aire',
     },
     {
-      referencia: 'IDEAM. (s. f.-b). Emisiones por fuentes fijas. ',
+      referencia: 'IDEAM. (s. f.-b). <i>Emisiones por fuentes fijas</i>. ',
       link:
         'http://www.ideam.gov.co/web/contaminacion-y-calidad-ambiental/emisiones-por-fuentes-fijas',
     },
     {
-      referencia: 'IDEAM. (s. f.-c). Emisiones por fuentes móviles. ',
+      referencia: 'IDEAM. (s. f.-c). <i>Emisiones por fuentes móviles</i>. ',
       link:
         'http://www.ideam.gov.co/web/contaminacion-y-calidad-ambiental/emisiones-por-fuentes-moviles',
     },
     {
-      referencia: 'IDEAM. (2014). Contaminación y calidad ambiental. ',
+      referencia: 'IDEAM. (2014).<i> Contaminación y calidad ambiental<i>. ',
       link: 'http://www.ideam.gov.co/web/contaminacion-y-calidad-ambiental',
     },
     {
       referencia:
-        'Junta de Andalucía. (s. f.). Las reacciones químicas: tipos de reacciones químicas. ',
+        'Junta de Andalucía. (s. f.). <i>Las reacciones químicas: tipos de reacciones químicas</i>. ',
       link:
         'http://agrega.juntadeandalucia.es/repositorio/30042010/10/es-an_2010043013_9115528/FQ1_U3_T3_Contenidos_v02.pdf',
     },
@@ -488,42 +489,42 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010a). Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas. ',
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010a). <i>Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas</i>. ',
       link:
         'http://www.ideam.gov.co/documents/51310/527666/Protocolo+fuentes+fijas.pdf/65780586-e70d-434a-9da7-264d3649b2ba ',
     },
     {
       referencia:
-        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010b). Protocolo para el monitoreo y seguimiento de la calidad del aire. Manual de diseño de sistemas de vigilancia de la calidad del aire. (2010). ',
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010b). <i>Protocolo para el monitoreo y seguimiento de la calidad del aire. Manual de diseño de sistemas de vigilancia de la calidad del aire.</i> (2010). ',
       link:
         'https://www.minambiente.gov.co/images/AsuntosambientalesySectorialyUrbana/pdf/contaminacion_atmosferica/Protocolo_Calidad_del_Aire_-_Manual_Dise%C3%B1o.pdf',
     },
     {
       referencia:
-        'Naciones Unidas. (s. f.). Objetivo 7: Garantizar el acceso a una energía asequible, segura, sostenible y moderna.',
+        'Naciones Unidas. (s. f.). <i>Objetivo 7: Garantizar el acceso a una energía asequible, segura, sostenible y moderna<i>.',
       link: 'https://www.un.org/sustainabledevelopment/es/energy/',
     },
     {
       referencia:
-        'Pardo, K. (2018, Noviembre 24). Contaminación del aire: un asesino anda suelto. El Tiempo. ',
+        'Pardo, K. (2018, Noviembre 24). <i>Contaminación del aire: un asesino anda suelto</i>. El Tiempo. ',
       link:
         'https://www.eltiempo.com/vida/medio-ambiente/contaminacion-del-aire-un-problema-para-la-salud-en-colombia-292226',
     },
     {
       referencia:
-        'Peña, T. y Bautista, J. (2018). Naturaleza de las reacciones químicas. Explorer BioGen. ',
+        'Peña, T. y Bautista, J. (2018). <i>Naturaleza de las reacciones químicas</i>. Explorer BioGen. ',
       link:
         'https://explorerbiogen.wordpress.com/2018/02/01/naturaleza-de-las-reacciones-quimicas/',
     },
     {
       referencia:
-        'Profe Cerebrito. (2013a). Información cuantitativa a partir de ecuaciones balanceadas teoría y ejercicios resueltos.',
+        'Profe Cerebrito. (2013a). <i>Información cuantitativa a partir de ecuaciones balanceadas teoría y ejercicios resueltos</i>.',
       link:
         ' http://quimica-a1.blogspot.com/2013/02/informacion-cuantitativa-partir-de.html',
     },
     {
       referencia:
-        'Profe Cerebrito. (2013b). Reactivos limitantes teoría y ejercicios resueltos. ',
+        'Profe Cerebrito. (2013b). R<i>eactivos limitantes teoría y ejercicios resueltos</i>. ',
       link:
         'http://quimica-a1.blogspot.com/2013/02/reactivos-limitantes-teoria-y.html',
     },
@@ -565,19 +566,19 @@ export default {
     },
     {
       referencia:
-        'Revista Semana. (2020, septiembre 9). Colombia tendría 190.000 vehículos eléctricos en 2030  ',
+        'Revista Semana. (2020, septiembre 9). <i>Colombia tendría 190.000 vehículos eléctricos en 2030</i>  ',
       link:
         'https://sostenibilidad.semana.com/actualidad/articulo/colombia-tendria-190000-vehiculos-electricos-en-2030--noticias-hoy/55167   ',
     },
     {
       referencia:
-        'Sánchez, C. (2018). Ley de los gases ideales. Instituto Superior Paramédico. ',
+        'Sánchez, C. (2018). <i>Ley de los gases ideales</i>. Instituto Superior Paramédico. ',
       link:
         'https://machete2000.files.wordpress.com/2018/10/08-gases-ideales.pdf',
     },
     {
       referencia:
-        'Tecnológico de Monterrey | Innovación Educativa. (Septiembre 27, 2017). ¿Qué es un factor de emisión? [Video]. YouTube.',
+        'Tecnológico de Monterrey | Innovación Educativa. (Septiembre 27, 2017).<i> ¿Qué es un factor de emisión?</i> [Video]. YouTube.',
       link: 'https://www.youtube.com/watch?v=A0DKIGHVUsE  ',
     },
     {
@@ -588,7 +589,7 @@ export default {
     },
     {
       referencia:
-        'Universidad de Panamá. (s. f.). El Sistema Internacional. Universidad de Panamá. Cursos de Química Analítica.',
+        'Universidad de Panamá. (s. f.). <i>El Sistema Internacional</i>. Universidad de Panamá. Cursos de Química Analítica.',
       link:
         'https://alkemist.jimdofree.com/qm-112/sem-2-sistema-internacional/',
     },
@@ -605,13 +606,13 @@ export default {
     },
     {
       referencia:
-        'Universidad Nacional Autónoma de México [UNAM]. (2019). Leyes generales de los gases: su aplicación en Fisiología. ',
+        'Universidad Nacional Autónoma de México [UNAM]. (2019).<i> Leyes generales de los gases: su aplicación en Fisiología</i>. ',
       link:
         'http://fisiologia.facmed.unam.mx/wp-content/uploads/2019/11/3-leyes-de-los-gases.pdf  ',
     },
     {
       referencia:
-        'Universidad Nacional de Lomas de Zamora. (s. f.). Módulo: Respiración celular. ',
+        'Universidad Nacional de Lomas de Zamora. (s. f.). <i>Módulo: Respiración celular</i>. ',
       link:
         'http://agrarias.unlz.edu.ar/archivos_descargables/rvmaterialdebiologaparaelccf/Respiracion%20celular.pdf  ',
     },
@@ -622,12 +623,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Líder del equipo',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -637,9 +638,39 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Diana Carolina Triana Guarnizo',
+          cargo: 'Instructora',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Juan Carlos Cárdenas Sánchez',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Gloria Esperanza Ortiz Russi',
+          cargo: 'Evaluadora y diseñadora instruccional',
+          centro: 'Centro de diseño y metrología',
+        },
+        {
+          nombre: 'Martha Isabel Martínez Vargas',
+          cargo: 'Productora audiovisual',
+          centro: 'Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Ana Vela Rodríguez Velásquez',
+          cargo: 'Diseño instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrección de estilo',
+          centro: 'Regional Tolima – Centro Agropecuario La Granja',
         },
       ],
     },
@@ -648,7 +679,7 @@ export default {
       autores: [
         {
           nombre: 'Juan Daniel Polanco Muñoz',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -659,9 +690,22 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: '',
+          cargo: 'Actividad Didáctica',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
@@ -669,14 +713,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Zuleidy María Ruiz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
