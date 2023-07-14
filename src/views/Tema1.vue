@@ -524,7 +524,7 @@
         .col-lg-4.my-3
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1.
-            span Notación científica. 
+            span Notación científica 
           .tabla-a.color-acento-contenido.mt-2
             table
               tbody              
@@ -573,7 +573,8 @@
             h5 Tabla 2.
             span Unidades de concentración.   
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/29.svg')
-          figcaption Nota. Tomado de https://ibero.mx/campus/publicaciones/quimanal/pdf/2soluciones.pdf            
+          figcaption Nota. Tomado de 
+            a(href="https://ibero.mx/campus/publicaciones/quimanal/pdf/2soluciones.pdf" target="_blank") https://ibero.mx/campus/publicaciones/quimanal/pdf/2soluciones.pdf            
 
 
       .row.justify-content-center.align-items-center.mb-5           
@@ -811,14 +812,15 @@
               p #[b Cuando estas leyes se combinan en una sola ecuación, se obtiene la denominada ecuación general de los gases ideales: P V = n R T, donde la nueva constante de proporcionalidad se denomina R, constante universal de los gases ideales, que tiene el mismo valor para todas las sustancias gaseosas]. El valor numérico de R dependerá de las unidades en las que se trabajen las otras propiedades, P, V, T y n. 
         .col-lg-8    
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/58.png')  
-
-    p(data-aos="fade-down").mb-5.pt-5 En consecuencia, se debe tener cuidado al elegir el valor de R que corresponda a los cálculos que se están realizando, así:
+    .row.justify-content-center.align-items-center.mb-5.pt-5          
+      .col-12.up
+        p(data-aos="fade-down") En consecuencia, se debe tener cuidado al elegir el valor de R que corresponda a los cálculos que se están realizando, así:
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10    
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4.
-          span Comportamiento ideal de los gases.     
+          span Comportamiento ideal de los gases     
         .tabla-a.color-acento-contenido.mt-2
           table
               thead.tab-x

@@ -276,7 +276,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 tabla 7.
-          span Tipos de combustibles.     
+          span Tipos de combustibles     
         .tabla-a.color-acento-contenido.mt-2
           table.mb-2
               thead.tab-x.btop1

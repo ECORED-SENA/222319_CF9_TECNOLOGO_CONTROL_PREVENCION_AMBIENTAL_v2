@@ -55,7 +55,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/8.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0.fst-italic “se realiza a través de procedimientos donde se recolecta una muestra (usando equipos muestreadores) para su posterior análisis o mediante el uso de analizadores instrumentales (analizadores en tiempo real).<br><br>El primer procedimiento corresponde a la captura de la muestra en la chimenea o ducto de la fuente, para su posterior análisis en laboratorio. El analizador instrumental es un equipo que mide directamente la concentración de los contaminantes en la chimenea o ducto de emisión y reporta los valores de las emisiones de manera inmediata.     
+        p.mb-0.fst-italic "se realiza a través de procedimientos donde se recolecta una muestra (usando equipos muestreadores) para su posterior análisis o mediante el uso de analizadores instrumentales (analizadores en tiempo real).<br><br>El primer procedimiento corresponde a la captura de la muestra en la chimenea o ducto de la fuente, para su posterior análisis en laboratorio. El analizador instrumental es un equipo que mide directamente la concentración de los contaminantes en la chimenea o ducto de emisión y reporta los valores de las emisiones de manera inmediata."     
 
     .row.justify-content-center.align-items-center.mb-5        
       .col-lg-10.up
@@ -98,7 +98,7 @@
 
               .titulo-sexto.color-acento-contenido
                 h5 Figura 3.
-                span Tren de muestreo.     
+                span Tren de muestreo     
               .tabla-a.color-acento-contenido.mt-2
                 table.mb-2
                     thead.tab-x.btop
@@ -237,12 +237,12 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2 Puertos de muestreo     
 
-    p(data-aos="fade-down") Los puertos de muestreo se convierten en los conductos que se instalan perpendicularmente a la chimenea, los cuales permiten el ingreso del equipo a la chimenea para poder tomar la muestra, así como lo ilustra el protocolo en fuentes fijas en la tabla #[b Instalaciones mínimas para la realización de mediciones directas.]
+    p(data-aos="fade-down").mb-4 Los puertos de muestreo se convierten en los conductos que se instalan perpendicularmente a la chimenea, los cuales permiten el ingreso del equipo a la chimenea para poder tomar la muestra, así como lo ilustra el protocolo en fuentes fijas en la tabla #[b Instalaciones mínimas para la realización de mediciones directas.]
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 3.
-      span Esquema de los puertos de muestreo (Niples).    
-    p(data-aos="fade-down").mb-5 Esquema de la ubicación y dimensiones de los puertos de toma de muestras (Niples)  
+      span Esquema de los puertos de muestreo (#[b Niples]).    
+    p(data-aos="fade-down").mb-5 Esquema de la ubicación y dimensiones de los puertos de toma de muestras (#[b Niples])  
 
     .bg19.mb-5
       .row.justify-content-center.align-items-end.mb-5           
