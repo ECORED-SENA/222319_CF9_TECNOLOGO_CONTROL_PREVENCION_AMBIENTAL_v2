@@ -197,7 +197,7 @@
 
     .row.justify-content-start.pt-5.mb-4          
       .col-auto.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Infraestructura para la medición directa en fuentes de emisión. 
+        h5.mb-0(data-aos="fade-down") Infraestructura para la medición directa en fuentes de emisión
 
     p(data-aos="fade-down") Una vez definidos los métodos a emplear para realizar la medición en las fuentes fijas, es importante garantizar que la chimenea cumpla con las condiciones necesarias para la realización de los muestreos para determinar la concentración de los contaminantes tipo criterio que se descargan a la atmósfera, según cita la Resolución 909 de 2008:
 
@@ -241,8 +241,8 @@
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 3.
-      span Esquema de los puertos de muestreo (#[b Niples]).    
-    p(data-aos="fade-down").mb-5 Esquema de la ubicación y dimensiones de los puertos de toma de muestras (#[b Niples])  
+      span Esquema de los puertos de muestreo (#[i Niples])    
+    p(data-aos="fade-down").mb-5 Esquema de la ubicación y dimensiones de los puertos de toma de muestras (#[i Niples])  
 
     .bg19.mb-5
       .row.justify-content-center.align-items-end.mb-5           
@@ -277,7 +277,7 @@
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 4.
-      span  Tipo de plataformas de toma de muestras.
+      span  Tipo de plataformas de toma de muestras
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-5
@@ -326,7 +326,7 @@
         p(data-aos="fade-down") Cuando se va a realizar el estudio de emisiones, es importante que el acceso al sitio de muestreo cuente con las condiciones de seguridad, como pasamanos, escaleras, barandas y demás infraestructura necesaria para evitar cualquier tipo de accidentes, y que permita el monitoreo de los contaminantes, como lo ilustra el Protocolo en Fuentes Fijas en la tabla #[b Instalaciones mínimas para la realización de mediciones directas.] 
       
     .row.justify-content-center.align-items-center          
-      .col-lg-10      
+      .col-lg-10.up.pb-5      
         .tabla-a.color-acento-contenido.mt-2
           table.mb-2
             tbody.bgg1              
@@ -573,7 +573,7 @@
 
     .row.justify-content-start.mb-4          
       .col-auto.bg9.p-3(data-aos="flip-down")
-        h5.mb-0(data-aos="fade-down") Información básica para el cálculo de las emisiones por factores de emisión. 
+        h5.mb-0(data-aos="fade-down") Información básica para el cálculo de las emisiones por factores de emisión 
 
     p(data-aos="fade-down").mb-5 Teniendo en cuenta que el cálculo de las emisiones por factores de emisión constituye un factor determinante en la estimación de estas concentraciones, el Protocolo en Fuentes Fijas establece una serie de componentes importantes para la presentación de estos valores como referente de una emisión industrial. Por lo anterior, a continuación, se revisa la información requerida para identificar las fuentes de emisión.
 

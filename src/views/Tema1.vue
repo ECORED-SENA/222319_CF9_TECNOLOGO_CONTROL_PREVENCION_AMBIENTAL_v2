@@ -571,7 +571,7 @@
           p(data-aos="fade-down") En la siguiente tabla, se resumen las principales unidades de concentración:
           .titulo-sexto.color-acento-contenido
             h5 Tabla 2.
-            span Unidades de concentración.   
+            span Unidades de concentración   
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/29.svg')
           figcaption Nota. Tomado de 
             a(href="https://ibero.mx/campus/publicaciones/quimanal/pdf/2soluciones.pdf" target="_blank") https://ibero.mx/campus/publicaciones/quimanal/pdf/2soluciones.pdf            
@@ -611,22 +611,7 @@
     #t_1_9.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.9 Ley de gases ideales 
 
-    p(data-aos="fade-down").mb-5 Para comprender cómo se comportan los contaminantes que se mezclan en el aire atmosférico, debe entender qué son los gases y cuáles son sus principales características. 
-
-    .row.justify-content-center.align-items-center.mb-5        
-      .col-lg-10.up
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/31.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-0 Para profundizar en el tema, se invita a revisar el video “Experimento densidad del aire”, que se encuentra en el material complementario.
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=VjGghz1JBVE" target="_blank")
-                    span Ver video
-                    i.c6.fab.fa-youtube
+    p(data-aos="fade-down") Para comprender cómo se comportan los contaminantes que se mezclan en el aire atmosférico, debe entender qué son los gases y cuáles son sus principales características. 
 
     p(data-aos="fade-down") Por otra parte, las más importantes leyes físicas que relaciona la historia sobre el aire atmosférico fueron investigadas por los más importantes científicos que estudiaron las teorías que rigen las principales leyes fisicoquímicas del aire.
 
@@ -801,7 +786,7 @@
         .col-lg-8    
           .titulo-sexto.color-acento-contenido
             h5 Tabla 3.
-            span Propiedades constantes.   
+            span Propiedades constantes  
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/57.svg')
           figcaption Nota. Tomada de Sánchez (2018).         
 
@@ -876,7 +861,7 @@
           .col-lg-8   
             .titulo-sexto.color-acento-contenido
               h5 Tabla 5.
-              span Ecuación de gases ideales.    
+              span Ecuación de gases ideales    
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/65.svg')
             figcaption Nota. Tomada de Sánchez (2018).  
            
