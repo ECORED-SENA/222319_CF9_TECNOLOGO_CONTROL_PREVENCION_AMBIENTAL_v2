@@ -301,8 +301,6 @@
 
     p(data-aos="fade-down") Los equipos se pueden subir a través de la escalera de la plataforma o izados desde el suelo hasta la plataforma mediante un sistema tipo "polea", siempre y cuando se garantice que el sistema soporta el peso del equipo y de los dispositivos que hace parte del mismo.
 
-    p(data-aos="fade-down") Se puede usar cualquiera de los siguientes tipos de plataforma.  
-
     .row.justify-content-center.align-items-center.mt-5        
         .col-lg-10.up
           .tarjeta.color-primario.p-3
