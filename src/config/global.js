@@ -243,6 +243,11 @@ export default {
         download: 'downloads/222319_CF09_DU.zip',
       },
       {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
+      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
