@@ -240,12 +240,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        download: 'downloads/222319_CF09_DU.zip',
       },
       {
         icono: 'far fa-registered',
