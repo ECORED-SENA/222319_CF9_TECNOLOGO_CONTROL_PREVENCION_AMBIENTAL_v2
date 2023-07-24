@@ -218,7 +218,7 @@
             tr  
               td Neblina ácida o trióxido de azufre,               
               td.text-center TODOS              
-              td.text-center(colspan="2") 0,5*  
+              td.text-center(colspan="2") 0,5 
             tr  
               td expresado como: (H#[sub #[i 2]]SO#[sub #[i 4]])              
               td.text-center TODOS              
