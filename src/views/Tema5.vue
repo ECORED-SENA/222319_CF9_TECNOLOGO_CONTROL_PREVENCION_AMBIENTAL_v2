@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 5
-      h1 Interpretación de los resultados de emisiones
+      h1 Interpretación de los resultados y las emisiones
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-7
@@ -44,7 +44,7 @@
           ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
             li 
               i.fas.fa-check.c1
-              | Con los datos ya validados (e identificados con banderas) y organizados por orden cronológico, se calculará primeramente el valor promedio horario (#[i promedio de todos los datos recolectados y válidos obtenidos en una hora]).
+              p.mb-0 Con los datos ya validados (e identificados con banderas) y organizados por orden cronológico, se calculará primeramente el valor promedio horario (#[i promedio de todos los datos recolectados y válidos obtenidos en una hora]).
 
             li 
               i.fas.fa-check.c1
@@ -110,7 +110,7 @@
 
     Separador 
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 5.2 Correcciones de resultados en emisión o fuentes fijas   
+      h2 5.2 Correcciones de resultados de emisión en fuentes fijas
     p(data-aos="fade-down") Según lo establecido en la Resolución 909 de 2008, en el Capítulo XXI disposiciones finales, Artículo 86, todos los resultados de las mediciones de los diferentes contaminantes deben ser corregidos a condiciones de referencia, por medio de la siguiente ecuación: 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
@@ -153,10 +153,9 @@
             .col-lg-8.my-3(data-aos="fade-down") 
               p Donde: 
 
-              p #[b C]#[sub CR(0#[sub 2ref])]: Concentración del contaminante a condiciones de referencia con la corrección de oxígeno, basado en el oxígeno de referencia, de conformidad con lo establecido en la presente resolución.
-              p #[b C]#[sub CR(X#[sub %])]: Concentración del contaminante a condiciones de referencia.
-              p %0_(2ref): Oxígeno de referencia de la medición, de conformidad con lo establecido en la presente resolución, en porcentaje (%).
-              p #[b X%:] Oxígeno medido a la salida de los gases, en porcentaje (%).    
+              p #[b FC:] flujo del contaminante en kg/h.
+              p #[b CCR:] concentración del contaminante a condiciones de referencia (25 °C, 760 mm Hg) en mg/m3.
+              p #[b QCR:] caudal del contaminante a condiciones de referencia (25 °C, 760 mm Hg) en m3/h.    
 
     .row.justify-content-center.align-items-center.mb-5        
       .col-lg-10.up
@@ -167,7 +166,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.mb-0 Para profundizar en el tema, se invita a ingresar a la página web del Ministerio de Ambiente, Vivienda y Desarrollo Territorial, donde aparece la Resolución 909 de 2008. Por la cual se establecen las normas y estándares de emisión admisibles de contaminantes a la atmósfera por fuentes fijas y se dictan otras disposiciones. (2008, p. 29). Esta información está ubicada en la sección de referencias.   
+                  h5.mb-0 Para complementar su aprendizaje, se invita a revisar la Resolución 909 de 2008. Para esto debe ir a la sección de referencias.
 
     p(data-aos="fade-down").mb-5 Una vez obtenidos los resultados, se comparan directamente con la norma. Dependiendo si la fuente corresponde a procesos relacionados a actividades industriales, se toma como base el Artículo 4, como lo muestra la siguiente tabla. 
 

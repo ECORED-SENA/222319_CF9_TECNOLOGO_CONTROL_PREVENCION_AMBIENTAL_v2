@@ -87,7 +87,7 @@
         p(data-aos="fade-down") Para continuar, con el tema, se invita a revisar el siguiente ejemplo: 
         
         .titulo-sexto.color-acento-contenido
-          h5 Figura 5.
+          h5 Figura 8.
           span Ecuación química
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/114.svg')
         figcaption Nota. Tomada de Peña y Bautista (2018). 
@@ -294,34 +294,35 @@
                   td Gasolina             
                   td C#[sub 8] H#[sub 18]
                 tr  
-                  td              
+                  td Iso-octano             
                   td Diésel            
                   td C#[sub 12] H#[sub 26]        
                 tr  
-                  td              
+                  td Iso-octano             
                   td Diésel            
                   td C#[sub 14.4] H#[sub 24.9]
                 tr  
                   td Propano             
-                  td(rowspan='2') Gas licuado de Petróleo             
+                  td Gas licuado de Petróleo             
                   td C#[sub 4] H#[sub 10]      
                 tr  
-                  td Butano             
+                  td Butano
+                  td Gas licuado de Petróleo
                   td C#[sub 38] H#[sub ]           
                 tr  
                   td Etano             
-                  td              
+                  td No aplica             
                   td C#[sub 3] H#[sub 6]      
                 tr  
                   td Metano             
                   td Gas natural             
                   td CH#[sub 6]
                 tr  
-                  td             
+                  td Metano            
                   td Biodiesel             
                   td CH#[sub 3]-#[b O-CO] R#[sub 3]       
                 tr  
-                  td             
+                  td Metano            
                   td Alcohol ético              
                   td C#[sub 2] H#[sub 5]OH 
 
@@ -456,7 +457,7 @@
     .row.justify-content-center.align-items-end.mb-5           
       .col-lg-6    
         .titulo-sexto.color-acento-contenido
-          h5 Figura 6.
+          h5 Figura 9.
           span Reacciones químicas 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/138.svg')   
       .col-lg-6
@@ -499,7 +500,8 @@
           .col-auto.bg9.p-3(data-aos="flip-down")
             h5.mb-0(data-aos="fade-down") Cálculos de reactivo limitante y porcentaje de rendimiento
 
-        p(data-aos="fade-down") En una reacción química, no necesariamente se consume la totalidad de los reactivos. Generalmente, alguno de ellos se encuentra en exceso. El otro reactivo, que es el que se consume totalmente, se conoce como reactivo limitante. Para que una reacción se lleve a cabo, debe haber sustancias (reactivos) capaces de reaccionar para formar los productos, pero basta que uno solo de los reactivos se agote para que la reacción termine. En los procesos industriales, generalmente, se usa un exceso del reactivo más barato y fácil de conseguir, y se selecciona como limitante el más caro o difícil de conseguir. Ejemplo  
+        p(data-aos="fade-down") En una reacción química, no necesariamente se consume la totalidad de los reactivos. Generalmente, alguno de ellos se encuentra en exceso. El otro reactivo, que es el que se consume totalmente, se conoce como reactivo limitante. Para que una reacción se lleve a cabo, debe haber sustancias (reactivos) capaces de reaccionar para formar los productos, pero basta que uno solo de los reactivos se agote para que la reacción termine. En los procesos industriales, generalmente, se usa un exceso del reactivo más barato y fácil de conseguir, y se selecciona como limitante el más caro o difícil de conseguir. 
+        h4(data-aos="fade-down") Ejemplo  
         h5(data-aos="fade-down") Considere la reacción siguiente: 
         p(data-aos="fade-down") Suponga que una disolución que contiene 3.50 g de Na3PO4, se mezcla con una disolución que contiene 6.40 g de Ba (NO3)2. #[b ¿Cuántos gramos de Ba2(PO4)2 podrán formarse?]                         
       .col-lg-5

@@ -66,7 +66,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.mb-0 El documento lo puede consultar en la sección de referencias (Ministerio de Ambiente, Vivienda y Desarrollo Territorial, 2010a, p. 6).    
+                  h5.mb-0 El documento lo puede consultar en la sección de referencias como Protocolo para el control y vigilancia de la contaminación atmosférica por fuentes fijas.
 
     .row.justify-content-start.pt-5.mb-4          
       .col-auto.bg9.p-3(data-aos="flip-down")
@@ -97,7 +97,7 @@
               p El tren de muestreo cuenta con las siguientes partes:
 
               .titulo-sexto.color-acento-contenido
-                h5 Figura 3.
+                h5 Figura 2.
                 span Tren de muestreo     
               .tabla-a.color-acento-contenido.mt-2
                 table.mb-2
@@ -183,7 +183,7 @@
                   .col.mb-3.mb-sm-0
                     h5.mb-0 Para profundizar en el tema, se invita a revisar el documento del Ministerio de Ambiente, Vivienda y Desarrollo territorial "Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas" (2008, p. 6-9), que se encuentra en la sección de referencias.  
 
-    p(data-aos="fade-down").mt-5 Aquí es importante resaltar que el protocolo da una salvedad con respecto al empleo de estas metodologías, como lo cita: …   
+    p(data-aos="fade-down").mt-5 Aquí es importante resaltar que el protocolo da una salvedad con respecto al empleo de estas metodologías, como lo cita:
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-6
@@ -206,21 +206,21 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/83.png')
       .col-lg-8
         .bg16.p-4.mb-4
-          p(data-aos="fade-down").mb-0.fst-italic   “..el Artículo 71 de la Resolución 909 de 2008 o la que la adicione, modifique o sustituya, y con el fin de garantizar que los resultados obtenidos mediante medición directa puedan ser comparados con los límites máximos permisibles establecidos para las fuentes fijas, se debe tener en cuenta que además de seguir los procedimientos establecidos en los métodos, contar con personal profesional y técnicos idóneos, para controlar las variables del proceso, se requiere contar con instalaciones físicas que permitan realizar las mediciones directas”.  
+          p(data-aos="fade-down").mb-0.fst-italic   “el Artículo 71 de la Resolución 909 de 2008 o la que la adicione, modifique o sustituya, y con el fin de garantizar que los resultados obtenidos mediante medición directa puedan ser comparados con los límites máximos permisibles establecidos para las fuentes fijas, se debe tener en cuenta que además de seguir los procedimientos establecidos en los métodos, contar con personal profesional y técnicos idóneos, para controlar las variables del proceso, se requiere contar con instalaciones físicas que permitan realizar las mediciones directas”.  
         p(data-aos="fade-down") Teniendo en cuenta esta referencia, la empresa deberá suministrar la infraestructura necesaria para que el personal profesional pueda acceder al sitio o puertos de muestreo con la seguridad apropiada para tal fin. Por ello, el protocolo de fuentes fijas establece las condiciones mínimas a tener en cuenta, que son:
         ul.lista-ul.fa-ul.mb-0(data-aos="fade-down")
           li 
             i.fas.fa-check.c4
-            | Deberá suministrar como mínimo puertos de toma de muestra adecuados para los métodos aplicables a la fuente fija”.
+            | Deberá suministrar como mínimo puertos de toma de muestra adecuados para los métodos aplicables a la fuente fija.
           li 
             i.fas.fa-check.c4
-            | “En los casos que existan sistemas de control de emisiones, estos deben estar instalados de manera tal que el flujo y la emisión de contaminantes pueda ser determinada con los métodos y procedimientos aplicables y contar con un ducto o chimenea libre de flujo ciclónico durante la realización de las mediciones directas, de acuerdo con lo establecido en los métodos y procedimientos de medición aplicables”.
+            | En los casos que existan sistemas de control de emisiones, estos deben estar instalados de manera tal que el flujo y la emisión de contaminantes pueda ser determinada con los métodos y procedimientos aplicables y contar con un ducto o chimenea libre de flujo ciclónico durante la realización de las mediciones directas, de acuerdo con lo establecido en los métodos y procedimientos de medición aplicables.
           li 
             i.fas.fa-check.c4
-            | “Plataformas y acceso seguro para realizar la toma de muestra”.
+            | Plataformas y acceso seguro para realizar la toma de muestra.
           li 
             i.fas.fa-check.c4
-            | “Dispositivos y aditamentos necesarios para la toma de muestra y análisis”. 
+            | Dispositivos y aditamentos necesarios para la toma de muestra y análisis. 
 
     .row.justify-content-start.mb-4          
       .col-auto.bg9.p-3(data-aos="flip-down")
@@ -229,7 +229,7 @@
     p(data-aos="fade-down").mb-5 Según lo establecido en el Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas, toda fuente susceptible de medición para cumplir los estándares establecidos en la Resolución 909 de 2008, como las chimeneas, debe contar como mínimo con las siguientes instalaciones:
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 2.
+      h5 Figura 3.
       span Estándares de la Resolución 909 de 2008. 
     img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/84.svg')
 
@@ -240,7 +240,7 @@
     p(data-aos="fade-down").mb-4 Los puertos de muestreo se convierten en los conductos que se instalan perpendicularmente a la chimenea, los cuales permiten el ingreso del equipo a la chimenea para poder tomar la muestra, así como lo ilustra el protocolo en fuentes fijas en la tabla #[b Instalaciones mínimas para la realización de mediciones directas.]
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 3.
+      h5 Figura 4.
       span Esquema de los puertos de muestreo (#[i Niples])    
     p(data-aos="fade-down").mb-5 Esquema de la ubicación y dimensiones de los puertos de toma de muestras (#[i Niples])  
 
@@ -267,7 +267,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h5.mb-0 Para profundizar en el tema, puede consultar el documento del Ministerio de Ambiente, Vivienda y Desarrollo territorial llamado Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas (2008, p. 21-22), que se encuentra en la sección de referencias.  
+                    h5.mb-0 Para profundizar en el tema, puede consultar el documento del Ministerio de Ambiente, Vivienda y Desarrollo territorial llamado Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas (2010, p. 21-22), que se encuentra en la sección de referencias.  
 
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -276,7 +276,7 @@
     p(data-aos="fade-down").mb-5 La plataforma es una estructura metálica que proporciona un área segura de trabajo, la cual permite que los trabajadores o personal competente, puedan tomar las muestras de forma segura. Generalmente, rodean la chimenea o parte de ella, para que los equipos que van a estar instalados puedan registrar los datos de las concentraciones que emiten las fuentes a la atmósfera, como lo ilustra el protocolo en fuentes fijas en la tabla #[b Instalaciones mínimas para la realización de mediciones directas.]
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura 4.
+      h5 Figura 5.
       span  Tipo de plataformas de toma de muestras
 
     .row.justify-content-center.align-items-center.mb-5           
@@ -310,7 +310,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h5.mb-0 Para conocer más del tema, se invita a revisar el documento del Ministerio de Ambiente, Vivienda y Desarrollo Territorial denominado Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas (2008, p.23), el cual se encuentra en la sección de referencias para ser consultado.  
+                    h5.mb-0 Para conocer más del tema, se invita a revisar el documento del Ministerio de Ambiente, Vivienda y Desarrollo Territorial denominado Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas (2010, p.23), el cual se encuentra en la sección de referencias para ser consultado.  
 
     Separador 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -336,10 +336,14 @@
       p(data-aos="fade-down").pt-3.mb-5 La chimenea, o ducto, por donde se descargan los gases contaminantes se convierte en la principal infraestructura necesaria para la medición de las emisiones. Esta puede ser tanto circular como rectangular, y debe cumplir los estándares mínimos establecidos en el método 1 EPA, con el fin de estandarizar las estructuras y la forma de medir sus contaminantes, como lo ilustra el protocolo en fuentes fijas en la tabla Instalaciones mínimas para la realización de mediciones directas.
       .row.justify-content-center.align-items-center.mb-5.bgw.p-4.brad           
         .col-lg-5
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 6.
+            span Esquema del ducto y soporte para el equipo de toma de muestra
+         
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/91.png')
 
         .col-lg-7
-          p(data-aos="fade-down") "El diámetro mínimo de la chimenea deberá ser de 0,30 metros, a menos que se apliquen los métodos alternativos establecidos en este protocolo.
+          p(data-aos="fade-down") El diámetro mínimo de la chimenea deberá ser de 0,30 metros, a menos que se apliquen los métodos alternativos establecidos en este protocolo.
 
           p(data-aos="fade-down") Para chimeneas con un diámetro interno superior a 2,5 metros se debe disponer de 4 puertos de toma de muestra, a menos que se cuente con condiciones de anclaje y sonda de 11 pies que permita realizar la medición con dos puntos de toma de muestra.
 
@@ -347,7 +351,7 @@
 
           p(data-aos="fade-down") En todo momento se debe garantizar que la temperatura exterior del ducto o chimenea permita el desarrollo de la medición, sin poner en riesgo la integridad del personal que la realiza.
 
-          p(data-aos="fade-down") Esquema del ducto y soporte para el equipo de toma de muestra (El esquema no se encuentra a escala por lo que se deben tener en cuenta únicamente como referencia las dimensiones acotadas)." 
+          p(data-aos="fade-down") Esquema del ducto y soporte para el equipo de toma de muestra (El esquema no se encuentra a escala por lo que se deben tener en cuenta únicamente como referencia las dimensiones acotadas).
       .row.justify-content-center.align-items-center.mt-4        
           .col-lg-10.up
             .tarjeta.color-primario.p-3
@@ -357,7 +361,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h5.mb-0 Para profundizar en el tema de instalaciones mínimas, puede revisar el documento del Ministerio de Ambiente, Vivienda y Desarrollo Territorial Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas (2008, p. 24), que se encuentra en la sección de referencias.
+                      h5.mb-0 Para profundizar en el tema de instalaciones mínimas, puede revisar el documento del Ministerio de Ambiente, Vivienda y Desarrollo Territorial Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas (2010, p. 24), que se encuentra en la sección de referencias.
 
     Separador 
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -374,7 +378,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h5.mb-0 Como parte de su aprendizaje autónomo, se invita a leer el documento del Ministerio de Ambiente, Vivienda y Desarrollo Territorial #[i Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas] (2008, p. 24), el cual le permite profundizar en el tema. Se encuentra ubicado en la sección de referencias.
+                    h5.mb-0 Como parte de su aprendizaje autónomo, se invita a leer el documento del Ministerio de Ambiente, Vivienda y Desarrollo Territorial #[i Protocolo para el control y vigilancia de la contaminación atmosférica generada por fuentes fijas] (2010, p. 24), el cual le permite profundizar en el tema. Se encuentra ubicado en la sección de referencias.
 
     Separador 
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -441,6 +445,9 @@
 
     .bg22    
       p(data-aos="fade-down").mb-5 En este protocolo se indica particularmente cómo se deben representar e indicar y dónde se encuentran los puntos que generan las emisiones, sobre todo dónde se ejecuta el balance de masa, como se representa en el siguiente gráfico.
+      .titulo-sexto.color-acento-contenido
+        h5 Figura 7.
+        span Balance de la masa
       img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/95.svg', alt='')
 
 
@@ -473,7 +480,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h5.mb-0 Para profundizar en el tema, se invita a revisar la sección de referencias para acceder a la información sobre los factores de emisión del aire, documento en inglés de la EPA.  
+                    h5.mb-0 Para profundizar en el tema, se invita a revisar la sección de referencias, el documento Factores de emisiones atmosféricas y cuantificación. 
 
     .row.justify-content-start.mb-4          
       .col-auto.bg9.p-3(data-aos="flip-down")

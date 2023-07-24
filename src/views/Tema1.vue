@@ -27,7 +27,7 @@
           .col-12
             p #[b Microgramos/metro cúbico:] empleada en las mediciones y normas para el monitoreo de la calidad del aire o inmisión.
 
-            p El portal Troposfera define el microgramo como: “… la unidad de masa del Sistema Internacional que equivale a la millonésima parte de un gramo¨. 
+            p El portal Troposfera define el microgramo como: "la unidad de masa del Sistema Internacional que equivale a la millonésima parte de un gramo". 
 
             p.mb-4 Se abrevia µg (aunque a veces aparece como ug).
 
@@ -323,7 +323,7 @@
 
                           td Potencia 
                           td ergio por segundo
-                          td 
+                          td erg/s
                         tr.bgt1
 
                           td Presión 
